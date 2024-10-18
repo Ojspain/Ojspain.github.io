@@ -10,8 +10,8 @@ for (let i = 0; i < 100; i++) {
     bubble.style.left = `${Math.random() * window.innerWidth}px`;
 
     // Set random float direction for each bubble
-    bubble.style.setProperty('--x', `${(Math.random() - 0.5) * 200}px`); // Horizontal movement
-    bubble.style.setProperty('--y', `${(Math.random() - 0.5) * 200}px`); // Vertical movement
+    bubble.style.setProperty('--x', `${(Math.random() - 0.5) * 200}px`);
+    bubble.style.setProperty('--y', `${(Math.random() - 0.5) * 200}px`);
 
     // Add click event for popping
     bubble.addEventListener('click', popBubble);
