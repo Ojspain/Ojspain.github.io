@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painting Versions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            font-size: 32px;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+        .strikethrough {
+            text-decoration: line-through;
+        }
+        a {
+            display: block;
+            margin: 10px 0;
+            font-size: 18px;
+            color: #0066cc;
+        }
+        a:hover {
+            color: #004999;
+        }
+        canvas {
+            display: block;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Versions of Kandinsky's "Several Circles"</h1>
+
+    <a href="static_version.html">Static Version</a>
+    <a href="animated_version.html">Animated Version</a>
+    <a href="interactive_version.html">Interactive Version</a>
+    <a href="https://commons.wikimedia.org/wiki/File:Vassily_Kandinsky,_1926_-_Several_Circles,_Gugg_0910_25.jpg" target="_blank">
+        View Original Artwork
+    </a>
+
+    <p>Since I spent so long on the recreation, I don't want to style this page. All I can offer you is my own original art piece:</p>
+
+    <h1>Oliver's "<span class="strikethrough">Several</span> Circle<span class="strikethrough">s</span>"</h1>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script>
+        function setup() {
+            createCanvas(500, 500);
+            background(50);
+            fill(2, 98, 32);
+            noStroke();
+            ellipse(width / 2, height / 2, 200);
+        }
+    </script>
+</body>
+</html>
