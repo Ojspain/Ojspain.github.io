@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Version</title>
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script>
+function setup() {
+  createCanvas(1006, 1024);
+}
+
+function draw() {
+  background(50);
+
+  
+  // big blue area
+  placeCircle(480, 578, 100, 78, 183, 222, 235)// light blue
+  placeCircle(325, 540, 90, 171, 181, 220, 250)// light purple edge
+  placeCircle(480, 473, 120, 226, 165, 41, 190)// orange edge
+  placeCircle(485, 195, 130, 196, 144, 222, 180)// pink edge
+  placeCircle(400, 340, 400, 22, 64, 200, 180)// blue
+  placeCircle(545, 515, 55, 215, 117, 186, 255)// outer pink
+  placeCircle(345, 295, 260, 0, 0, 0, 255)// black
+  placeCircle(485, 195, 130, 196, 144, 222, 180)// purple
+  placeCircle(455, 405, 75, 163, 220, 175, 185)// green
+  placeCircle(395, 410, 35, 134, 217, 235, 180)// blue
+  placeCircle(400, 473, 83, 190, 165, 52, 200)// yellow
+  placeCircle(480, 473, 120, 226, 165, 41, 130)// orange
+  placeCircle(325, 540, 90, 171, 181, 220, 200)// light purple
+  placeCircle(275, 485, 13, 204, 164, 226, 250)// small pink
+  placeCircle(251, 487, 18, 0, 0, 0, 255)// reds black boarder
+  placeCircle(251, 487, 12, 221, 88, 134, 250)// small red
+  placeCircle(211, 405, 20, 252, 233, 85, 250)// blacks yellow boarder
+  placeCircle(211, 405, 15, 0, 0, 0, 250)// small black with yellow
+  placeCircle(515, 516, 13, 0, 0, 0, 255)// black over pink
+  placeCircle(297, 585, 16, 0, 0, 0, 255)// black by light purple
+  // fish egg
+  placeCircle(685, 355, 200, 52, 149, 143, 150)// big green
+  placeCircle(685, 355, 65, 89, 191, 205, 105)// inner blue glow
+  placeCircle(685, 355, 48, 89, 191, 205, 230)// inner sharp blue
+  placeCircle(685, 355, 45, 0, 0, 0, 230)// inner black
+  
+  // upper left
+  placeCircle(128, 190, 94, 245, 153, 214, 235)//pink
+  placeCircle(100, 78, 42, 241, 219, 70, 225)//yellow
+
+  // upper right
+  placeCircle(720, 155, 85, 251, 229, 129, 205)// yellow
+  placeCircle(840, 235, 51, 251, 229, 129, 225)// oranges yellow boarder
+  placeCircle(840, 235, 45, 252, 169, 27, 235)// orange
+  placeCircle(880, 135, 37, 237, 63, 86, 235)// red
+  
+  // lower right
+  placeCircle(800, 725, 220, 197, 203, 223, 235)// grey
+  placeCircle(737, 705, 70, 243, 223, 183, 155)// tan
+  placeCircle(737, 705, 55, 138, 217, 222, 235)// cyan
+  placeCircle(670, 675, 65, 243, 223, 183, 205)// outer tan
+  placeCircle(820, 635, 20, 211, 29, 47, 235)// red
+  placeCircle(840, 640, 10, 0, 0, 0, 235)// black
+  placeCircle(918, 737, 25, 207, 178, 70, 235)// dark yellow
+  placeCircle(747, 849, 25, 237, 215, 42, 235)// yellow
+  placeCircle(717, 909, 35, 210, 51, 80, 235)// outer red
+  placeCircle(847, 939, 29, 59, 143, 191, 235)// blue
+  placeCircle(883, 493, 32, 138, 217, 222, 235)// dark blues cyan boarder
+  placeCircle(883, 493, 27, 23, 81, 218, 235)// dark blue
+  placeCircle(380, 740, 42, 246, 186, 45, 235)// isolated yellow
+  
+  // lower left
+  placeCircle(223, 560, 73, 207, 104, 61, 225)// orange
+  placeCircle(193, 510, 73, 225, 180, 50, 225)// dark yellow
+  placeCircle(193, 610, 73, 144, 90, 62, 225)// brown
+  placeCircle(156, 610, 73, 214, 43, 74, 225)// red
+  placeCircle(119, 585, 73, 250, 234, 83, 225)// yellow
+  placeCircle(89, 480, 110, 153, 238, 255, 170)// pearl glow
+  placeCircle(89, 480, 105, 0, 0, 0, 225)// pearl black boarder
+  placeCircle(89, 480, 98, 178, 195, 220, 225)// pearl
+  placeCircle(105, 460, 35, 0, 0, 0, 225)// inner black
+  placeCircle(149, 815, 53, 50, 159, 222, 225)// blue
+  placeCircle(100, 760, 25, 255, 255, 255, 225)// pinks white boarder
+  placeCircle(100, 760, 23, 246, 157, 209, 225)// pink
+  placeCircle(80, 845, 22, 250, 234, 83, 225)// blacks yellow boarder
+  placeCircle(80, 845, 19, 0, 0, 0, 225)// black
+}
+
+function placeCircle(x, y, size, r, g, b, a) {
+  noStroke();
+  fill(r, g, b, a);
+  ellipse(x, y, size, size);
+}
+    </script>
+</body>
+</html>
