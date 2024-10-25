@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Version</title>
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script>
+let offsets = [];
+let t = 0;
+
+function setup() {
+  createCanvas(1006, 1024);
+  for (let i = 0; i < 57; i++) {
+    offsets.push(random(TWO_PI));  // Create 57 random offset phases
+  }
+}
+
+function draw() {
+  background(50);
+  t += 0.02;
+
+//placeCircle(X,    Y,  Size,R   G,  B,  Alpha)
+//placeCircle(345, 295, 20, 0, 0, 0, 255)
+  
+  // big blue area
+  placeOscillatingCircle(480, 578, 100, 78, 183, 222, 235, t, offsets[0]) // light blue
+  placeOscillatingCircle(325, 540, 90, 171, 181, 220, 250, t, offsets[1]) // light purple edge
+  placeOscillatingCircle(480, 473, 120, 226, 165, 41, 190, t, offsets[2]) // orange edge
+  placeOscillatingCircle(485, 195, 130, 196, 144, 222, 180, t, offsets[3]) // pink edge
+  placeOscillatingCircle(400, 340, 400, 22, 64, 200, 180, t, offsets[4]) // blue
+  placeOscillatingCircle(545, 515, 55, 215, 117, 186, 255, t, offsets[5]) // outer pink
+  placeOscillatingCircle(345, 295, 260, 0, 0, 0, 255, t, offsets[6]) // black
+  placeOscillatingCircle(485, 195, 130, 196, 144, 222, 180, t, offsets[7]) // purple
+  placeOscillatingCircle(455, 405, 75, 163, 220, 175, 185, t, offsets[8]) // green
+  placeOscillatingCircle(395, 410, 35, 134, 217, 235, 180, t, offsets[9]) // blue
+  placeOscillatingCircle(400, 473, 83, 190, 165, 52, 200, t, offsets[10]) // yellow
+  placeOscillatingCircle(480, 473, 120, 226, 165, 41, 130, t, offsets[11]) // orange
+  placeOscillatingCircle(325, 540, 90, 171, 181, 220, 200, t, offsets[12]) // light purple
+  placeOscillatingCircle(275, 485, 13, 204, 164, 226, 250, t, offsets[13]) // small pink
+  placeOscillatingCircle(251, 487, 18, 0, 0, 0, 255, t, offsets[14]) // reds black border
+  placeOscillatingCircle(251, 487, 12, 221, 88, 134, 250, t, offsets[15]) // small red
+  placeOscillatingCircle(211, 405, 20, 252, 233, 85, 250, t, offsets[16]) // blacks yellow border
+  placeOscillatingCircle(211, 405, 15, 0, 0, 0, 250, t, offsets[17]) // small black with yellow
+  placeOscillatingCircle(515, 516, 13, 0, 0, 0, 255, t, offsets[18]) // black over pink
+  placeOscillatingCircle(297, 585, 16, 0, 0, 0, 255, t, offsets[19]) // black by light purple
+  
+  // fish egg
+  placeOscillatingCircle(685, 355, 200, 52, 149, 143, 150, t, offsets[20]) // big green
+  placeOscillatingCircle(685, 355, 65, 89, 191, 205, 105, t, offsets[21]) // inner blue glow
+  placeOscillatingCircle(685, 355, 48, 89, 191, 205, 230, t, offsets[22]) // inner sharp blue
+  placeOscillatingCircle(685, 355, 45, 0, 0, 0, 230, t, offsets[23]) // inner black
+  
+  // upper left
+  placeOscillatingCircle(128, 190, 94, 245, 153, 214, 235, t, offsets[24]) // pink
+  placeOscillatingCircle(100, 78, 42, 241, 219, 70, 225, t, offsets[25]) // yellow
+
+  // upper right
+  placeOscillatingCircle(720, 155, 85, 251, 229, 129, 205, t, offsets[26]) // yellow
+  placeOscillatingCircle(840, 235, 51, 251, 229, 129, 225, t, offsets[27]) // orange's yellow border
+  placeOscillatingCircle(840, 235, 45, 252, 169, 27, 235, t, offsets[28]) // orange
+  placeOscillatingCircle(880, 135, 37, 237, 63, 86, 235, t, offsets[29]) // red
+  
+  // lower right
+  placeOscillatingCircle(800, 725, 220, 197, 203, 223, 235, t, offsets[30]) // grey
+  placeOscillatingCircle(737, 705, 70, 243, 223, 183, 155, t, offsets[31]) // tan
+  placeOscillatingCircle(737, 705, 55, 138, 217, 222, 235, t, offsets[32]) // cyan
+  placeOscillatingCircle(670, 675, 65, 243, 223, 183, 205, t, offsets[33]) // outer tan
+  placeOscillatingCircle(820, 635, 20, 211, 29, 47, 235, t, offsets[34]) // red
+  placeOscillatingCircle(840, 640, 10, 0, 0, 0, 235, t, offsets[35]) // black
+  placeOscillatingCircle(918, 737, 25, 207, 178, 70, 235, t, offsets[36]) // dark yellow
+  placeOscillatingCircle(747, 849, 25, 237, 215, 42, 235, t, offsets[37]) // yellow
+  placeOscillatingCircle(717, 909, 35, 210, 51, 80, 235, t, offsets[38]) // outer red
+  placeOscillatingCircle(847, 939, 29, 59, 143, 191, 235, t, offsets[39]) // blue
+  placeOscillatingCircle(883, 493, 32, 138, 217, 222, 235, t, offsets[40]) // dark blue's cyan border
+  placeOscillatingCircle(883, 493, 27, 23, 81, 218, 235, t, offsets[41]) // dark blue
+  placeOscillatingCircle(380, 740, 42, 246, 186, 45, 235, t, offsets[42]) // isolated yellow
+  
+  // lower left
+  placeOscillatingCircle(223, 560, 73, 207, 104, 61, 225, t, offsets[43]); // orange
+  placeOscillatingCircle(193, 510, 73, 225, 180, 50, 225, t, offsets[44]); // dark yellow
+  placeOscillatingCircle(193, 610, 73, 144, 90, 62, 225, t, offsets[45]); // brown
+  placeOscillatingCircle(156, 610, 73, 214, 43, 74, 225, t, offsets[46]); // red
+  placeOscillatingCircle(119, 585, 73, 250, 234, 83, 225, t, offsets[47]); // yellow
+  placeOscillatingCircle(89, 480, 110, 153, 238, 255, 170, t, offsets[48]); // pearl glow
+  placeOscillatingCircle(89, 480, 105, 0, 0, 0, 225, t, offsets[49]); // pearl black border
+  placeOscillatingCircle(89, 480, 98, 178, 195, 220, 225, t, offsets[50]); // pearl
+  placeOscillatingCircle(105, 460, 35, 0, 0, 0, 225, t, offsets[51]); // inner black
+  placeOscillatingCircle(149, 815, 53, 50, 159, 222, 225, t, offsets[52]); // blue
+  placeOscillatingCircle(100, 760, 25, 255, 255, 255, 225, t, offsets[53]); // pink's white border
+  placeOscillatingCircle(100, 760, 23, 246, 157, 209, 225, t, offsets[54]); // pink
+  placeOscillatingCircle(80, 845, 22, 250, 234, 83, 225, t, offsets[55]); // black's yellow border
+  placeOscillatingCircle(80, 845, 19, 0, 0, 0, 225, t, offsets[56]); // black
+
+}
+
+// Oscillating circle drawing function
+function placeOscillatingCircle(x, y, baseSize, r, g, b, a, time, offset) {
+  noStroke();
+  fill(r, g, b, a);
+  let oscillatedSize = baseSize + sin(time + offset) * 13; // Staggered oscillation
+  ellipse(x, y, oscillatedSize, oscillatedSize);
+}
+    </script>
+</body>
+</html>
