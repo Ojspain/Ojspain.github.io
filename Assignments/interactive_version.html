@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Version (Hit Space)</title>
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script>
+let circles = [];
+
+function setup() {
+  createCanvas(1006, 1024);
+  
+  // Store circle data in an array
+  circles.push({ x: 480, y: 578, size: 100, r: 78, g: 183, b: 222, a: 235 }); // light blue
+  circles.push({ x: 325, y: 540, size: 90, r: 171, g: 181, b: 220, a: 250 }); // light purple edge
+  circles.push({ x: 480, y: 473, size: 120, r: 226, g: 165, b: 41, a: 190 }); // orange edge
+  circles.push({ x: 485, y: 195, size: 130, r: 196, g: 144, b: 222, a: 180 }); // pink edge
+  circles.push({ x: 400, y: 340, size: 400, r: 22, g: 64, b: 200, a: 180 }); // blue
+  circles.push({ x: 545, y: 515, size: 55, r: 215, g: 117, b: 186, a: 255 }); // outer pink
+  circles.push({ x: 345, y: 295, size: 260, r: 0, g: 0, b: 0, a: 255 }); // black
+  circles.push({ x: 485, y: 195, size: 130, r: 196, g: 144, b: 222, a: 180 }); // purple
+  circles.push({ x: 455, y: 405, size: 75, r: 163, g: 220, b: 175, a: 185 }); // green
+  circles.push({ x: 395, y: 410, size: 35, r: 134, g: 217, b: 235, a: 180 }); // blue
+  circles.push({ x: 400, y: 473, size: 83, r: 190, g: 165, b: 52, a: 200 }); // yellow
+  circles.push({ x: 480, y: 473, size: 120, r: 226, g: 165, b: 41, a: 130 }); // orange
+  circles.push({ x: 325, y: 540, size: 90, r: 171, g: 181, b: 220, a: 200 }); // light purple
+  circles.push({ x: 275, y: 485, size: 13, r: 204, g: 164, b: 226, a: 250 }); // small pink
+  circles.push({ x: 251, y: 487, size: 18, r: 0, g: 0, b: 0, a: 255 }); // reds black border
+  circles.push({ x: 251, y: 487, size: 12, r: 221, g: 88, b: 134, a: 250 }); // small red
+  circles.push({ x: 211, y: 405, size: 20, r: 252, g: 233, b: 85, a: 250 }); // blacks yellow border
+  circles.push({ x: 211, y: 405, size: 15, r: 0, g: 0, b: 0, a: 250 }); // small black with yellow
+  circles.push({ x: 515, y: 516, size: 13, r: 0, g: 0, b: 0, a: 255 }); // black over pink
+  circles.push({ x: 297, y: 585, size: 16, r: 0, g: 0, b: 0, a: 255 }); // black by light purple
+
+  // fish egg
+  circles.push({ x: 685, y: 355, size: 200, r: 52, g: 149, b: 143, a: 150 }); // big green
+  circles.push({ x: 685, y: 355, size: 65, r: 89, g: 191, b: 205, a: 105 }); // inner blue glow
+  circles.push({ x: 685, y: 355, size: 48, r: 89, g: 191, b: 205, a: 230 }); // inner sharp blue
+  circles.push({ x: 685, y: 355, size: 45, r: 0, g: 0, b: 0, a: 230 }); // inner black
+  
+  // upper left
+  circles.push({ x: 128, y: 190, size: 94, r: 245, g: 153, b: 214, a: 235 }); // pink
+  circles.push({ x: 100, y: 78, size: 42, r: 241, g: 219, b: 70, a: 225 }); // yellow
+
+  // upper right
+  circles.push({ x: 720, y: 155, size: 85, r: 251, g: 229, b: 129, a: 205 }); // yellow
+  circles.push({ x: 840, y: 235, size: 51, r: 251, g: 229, b: 129, a: 225 }); // oranges yellow border
+  circles.push({ x: 840, y: 235, size: 45, r: 252, g: 169, b: 27, a: 235 }); // orange
+  circles.push({ x: 880, y: 135, size: 37, r: 237, g: 63, b: 86, a: 235 }); // red
+  
+  // lower right
+  circles.push({ x: 800, y: 725, size: 220, r: 197, g: 203, b: 223, a: 235 }); // grey
+  circles.push({ x: 737, y: 705, size: 70, r: 243, g: 223, b: 183, a: 155 }); // tan
+  circles.push({ x: 737, y: 705, size: 55, r: 138, g: 217, b: 222, a: 235 }); // cyan
+  circles.push({ x: 670, y: 675, size: 65, r: 243, g: 223, b: 183, a: 205 }); // outer tan
+  circles.push({ x: 820, y: 635, size: 20, r: 211, g: 29, b: 47, a: 235 }); // red
+  circles.push({ x: 840, y: 640, size: 10, r: 0, g: 0, b: 0, a: 235 }); // black
+  circles.push({ x: 918, y: 737, size: 25, r: 207, g: 178, b: 70, a: 235 }); // dark yellow
+  circles.push({ x: 747, y: 849, size: 25, r: 237, g: 215, b: 42, a: 235 }); // yellow
+  circles.push({ x: 717, y: 909, size: 35, r: 210, g: 51, b: 80, a: 235 }); // outer red
+  circles.push({ x: 847, y: 939, size: 29, r: 59, g: 143, b: 191, a: 235 }); // blue
+  circles.push({ x: 883, y: 493, size: 32, r: 138, g: 217, b: 222, a: 235 }); // dark blues cyan border
+  circles.push({ x: 883, y: 493, size: 27, r: 23, g: 81, b: 218, a: 235 }); // dark blue
+  circles.push({ x: 380, y: 740, size: 42, r: 246, g: 186, b: 45, a: 235 }); // isolated yellow
+  
+  // lower left
+  circles.push({ x: 223, y: 560, size: 73, r: 207, g: 104, b: 61, a: 225 }); // orange
+  circles.push({ x: 193, y: 510, size: 73, r: 225, g: 180, b: 50, a: 225 }); // dark yellow
+  circles.push({ x: 193, y: 610, size: 73, r: 144, g: 90, b: 62, a: 225 }); // brown
+  circles.push({ x: 156, y: 610, size: 73, r: 214, g: 43, b: 74, a: 225 }); // red
+  circles.push({ x: 119, y: 585, size: 73, r: 250, g: 234, b: 83, a: 225 }); // yellow
+  circles.push({ x: 89, y: 480, size: 110, r: 153, g: 238, b: 255, a: 170 }); // pearl glow
+  circles.push({ x: 89, y: 480, size: 105, r: 0, g: 0, b: 0, a: 225 }); // pearl black border
+  circles.push({ x: 89, y: 480, size: 98, r: 178, g: 195, b: 220, a: 225 }); // pearl
+  circles.push({ x: 105, y: 460, size: 35, r: 0, g: 0, b: 0, a: 225 }); // inner black
+  circles.push({ x: 149, y: 815, size: 53, r: 50, g: 159, b: 222, a: 225 }); // blue
+  circles.push({ x: 100, y: 760, size: 25, r: 255, g: 255, b: 255, a: 225 }); // pink's white border
+  circles.push({ x: 100, y: 760, size: 23, r: 246, g: 157, b: 209, a: 225 }); // pink
+  circles.push({ x: 80, y: 845, size: 22, r: 250, g: 234, b: 83, a: 225 }); // black's yellow border
+  circles.push({ x: 80, y: 845, size: 19, r: 0, g: 0, b: 0, a: 225 }); // black
+}
+
+function draw() {
+  background(50);
+  
+  for (let circle of circles) {
+    fill(circle.r, circle.g, circle.b, circle.a);
+    noStroke();
+    ellipse(circle.x, circle.y, circle.size);
+  }
+}
+
+function keyPressed() {
+  if (key === ' ') { // spacebar
+    for (let circle of circles) {
+      circle.r = constrain(circle.r + random([-15, 15]), 0, 255);
+      circle.g = constrain(circle.g + random([-15, 15]), 0, 255);
+      circle.b = constrain(circle.b + random([-15, 15]), 0, 255);
+    }
+  }
+}
+    </script>
+</body>
+</html>
