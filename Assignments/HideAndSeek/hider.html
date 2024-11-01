@@ -4,15 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hider</title>
-  <link rel="stylesheet" href="../../css/hider.css">
+  <link rel="stylesheet" href="hider.css">
 </head>
 <body>
   <div class="container text-center mt-5">
     <div class="title">Hider</div>
     <div class="container text-center">
       <p id="timer-display" class="display-4">60 Seconds</p>
+      <button class="btn custom-btn">Start Timer</button>
       <div class="image-container mt-4">
-        <img src="../../images/map.png" alt="The valid area of hide and seek stretches from Wright's Triangle to the Environmental Studies Building stairs." class="img-fluid centered-image">
+        <img src="../../images/map.png" alt="Map of hide and seek area" class="img-fluid centered-image" style="max-width: 80%; height: auto; padding: 10px;">
       </div>
     </div>
   
@@ -24,25 +25,20 @@
       let countdownTime = 60; // seconds
       let countdownInterval;
 
-      // Listen for timer start from Ably
       channel.subscribe("start-timer", (message) => {
         const startTime = message.data.startTime;
-        document.body.style.backgroundColor = "white"; // Reset background on start
         startTimer(startTime);
       });
-  
-      // Function to start the timer
+
       function startTimer(startTime) {
         clearInterval(countdownInterval);
-  
         countdownInterval = setInterval(() => {
           const elapsed = Math.floor((Date.now() - startTime) / 1000);
           const remainingTime = countdownTime - elapsed;
-  
+
           if (remainingTime <= 0) {
             clearInterval(countdownInterval);
             document.getElementById("timer-display").innerText = "Ready or not, here they come!";
-            document.body.style.backgroundColor = "red"; // Set background to red
           } else {
             document.getElementById("timer-display").innerText = `${remainingTime} Seconds`;
           }
