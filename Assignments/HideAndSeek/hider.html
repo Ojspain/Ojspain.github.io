@@ -3,45 +3,55 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hider Page</title>
+  <title>Hider</title>
+  <link rel="stylesheet" href="../../css/hider.css">
 </head>
 <body>
-  <div class="container text-center">
-    <h1>Hider Page</h1>
-    <p id="timer-display" class="display-4">60</p>
-    <!-- Additional map or other elements can be added here -->
+  <div class="container text-center mt-5">
+    <div class="title">Hider</div>
+    <div class="container text-center">
+      <p id="timer-display" class="display-4">60 Seconds</p>
+      <div class="image-container mt-4">
+        <img src="../../images/map.png" alt="The valid area of hide and seek stretches from Wright's Triangle to the Environmental Studies Building stairs." class="img-fluid centered-image">
+      </div>
+    </div>
+  
+    <script src="https://cdn.ably.io/lib/ably.min-1.js"></script>
+    <script>
+      const ably = new Ably.Realtime("vum2bA.xZH9jA:NNzp1GamB27aE7fGR0NrRR29MYQgawIKrGMCRVOXvw0");
+      const channel = ably.channels.get("hide-and-seek-timer");
+  
+      let countdownTime = 60; // seconds
+      let countdownInterval;
+
+      // Listen for timer start from Ably
+      channel.subscribe("start-timer", (message) => {
+        const startTime = message.data.startTime;
+        document.body.style.backgroundColor = "white"; // Reset background on start
+        startTimer(startTime);
+      });
+  
+      // Function to start the timer
+      function startTimer(startTime) {
+        clearInterval(countdownInterval);
+  
+        countdownInterval = setInterval(() => {
+          const elapsed = Math.floor((Date.now() - startTime) / 1000);
+          const remainingTime = countdownTime - elapsed;
+  
+          if (remainingTime <= 0) {
+            clearInterval(countdownInterval);
+            document.getElementById("timer-display").innerText = "Ready or not, here they come!";
+            document.body.style.backgroundColor = "red"; // Set background to red
+          } else {
+            document.getElementById("timer-display").innerText = `${remainingTime} Seconds`;
+          }
+        }, 1000);
+      }
+    </script>
   </div>
-
-  <script src="https://cdn.ably.io/lib/ably.min-1.js"></script>
-  <script>
-    const ably = new Ably.Realtime("vum2bA.xZH9jA:NNzp1GamB27aE7fGR0NrRR29MYQgawIKrGMCRVOXvw0");
-    const channel = ably.channels.get("hide-and-seek-timer");
-
-    let countdownTime = 60; // seconds
-    let countdownInterval;
-
-    // Listen for timer start from Ably
-    channel.subscribe("start-timer", (message) => {
-      const startTime = message.data.startTime;
-      startTimer(startTime);
-    });
-
-    // Function to start the timer
-    function startTimer(startTime) {
-      clearInterval(countdownInterval);
-
-      countdownInterval = setInterval(() => {
-        const elapsed = Math.floor((Date.now() - startTime) / 1000);
-        const remainingTime = countdownTime - elapsed;
-
-        if (remainingTime <= 0) {
-          clearInterval(countdownInterval);
-          document.getElementById("timer-display").innerText = "Time's up!";
-        } else {
-          document.getElementById("timer-display").innerText = remainingTime;
-        }
-      }, 1000);
-    }
-  </script>
+  <script src="script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
