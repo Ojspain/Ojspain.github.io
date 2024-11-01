@@ -23,7 +23,7 @@ function startTimer(startTime) {
 
 // Event listener for the seeker
 document.getElementById("start-button").addEventListener("click", async () => {
-  const response = await fetch("https://YOUR_VULTR_SERVER_IP/start-timer", {
+  const response = await fetch("https://149.28.13.123/start-timer", {
     method: "POST",
     headers: { "Content-Type": "application/json" }
   });
