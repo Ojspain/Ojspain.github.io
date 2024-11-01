@@ -28,6 +28,12 @@
     text-align: center;
 }
 
+.img-fluid {
+    max-width: 80%;
+    height: auto;
+    padding: 10px;
+}
+
 @media (max-width: 768px) {
     #timer-display {
         font-size: 4rem;
