@@ -4,19 +4,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hide and Seek - Seeker</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="../../css/hider.css">
-  <script src="https://cdn.ably.io/lib/ably.min-1.js"></script>
 </head>
 <body>
   <div class="container text-center mt-5">
-    <h1 class="title">Seeker</h1>
-    <button id="start-button" class="btn custom-btn">Start 60-Second Countdown</button>
-    <p id="timer-display" class="display-4 mt-4">Waiting for countdown to start...</p>
+    <div class="title">Seeker</div>
+    <div class="row button-container">
+      <div class="col-12">
+        <a href="#" id="start-button">
+          <button class="btn btn-danger custom-btn">Start 60-Second Countdown</button>
+        </a>
+      </div>
+    </div>
+    <p id="timer-display">Waiting to start...</p>
     <div class="image-container mt-4">
-      <img src="../../images/map.png" alt="Map of hide and seek area" class="img-fluid centered-image" style="max-width: 80%; height: auto; padding: 10px;">
+      <img src="../../images/map.png" alt="The valid area of hide and seek stretches from Wright's Triangle to the Environmental Studies Building stairs." class="img-fluid centered-image">
     </div>
   </div>
 
+  <script src="https://cdn.ably.io/lib/ably.min-1.js"></script>
   <script>
     const ably = new Ably.Realtime("vum2bA.xZH9jA:NNzp1GamB27aE7fGR0NrRR29MYQgawIKrGMCRVOXvw0");
     const channel = ably.channels.get("hide-and-seek-timer");
@@ -24,14 +31,17 @@
     let countdownTime = 60; // seconds
     let countdownInterval;
 
+    // Start the timer and publish start time directly to Ably
     document.getElementById("start-button").addEventListener("click", () => {
       const startTime = Date.now();
       channel.publish("start-timer", { startTime });
       startTimer(startTime);
     });
 
+    // Function to start the timer locally
     function startTimer(startTime) {
       clearInterval(countdownInterval);
+
       countdownInterval = setInterval(() => {
         const elapsed = Math.floor((Date.now() - startTime) / 1000);
         const remainingTime = countdownTime - elapsed;
@@ -41,8 +51,8 @@
           document.getElementById("timer-display").innerText = "Time's up!";
           document.body.style.backgroundColor = "red";
         } else {
-          document.getElementById("timer-display").innerText = `${remainingTime} seconds remaining`;
-          document.body.style.backgroundColor = "white";
+          document.getElementById("timer-display").innerText = `${remainingTime} Seconds remaining`;
+          document.body.style.backgroundColor = "white"; // Reset background color
         }
       }, 1000);
     }
