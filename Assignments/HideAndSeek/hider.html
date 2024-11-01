@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hider Page</title>
+</head>
+<body>
+  <div class="container text-center">
+    <h1>Hider Page</h1>
+    <p id="timer-display" class="display-4">60</p>
+    <!-- Additional map or other elements can be added here -->
+  </div>
+
+  <script src="https://cdn.ably.io/lib/ably.min-1.js"></script>
+  <script>
+    const ably = new Ably.Realtime("vum2bA.xZH9jA:NNzp1GamB27aE7fGR0NrRR29MYQgawIKrGMCRVOXvw0");
+    const channel = ably.channels.get("hide-and-seek-timer");
+
+    let countdownTime = 60; // seconds
+    let countdownInterval;
+
+    // Listen for timer start from Ably
+    channel.subscribe("start-timer", (message) => {
+      const startTime = message.data.startTime;
+      startTimer(startTime);
+    });
+
+    // Function to start the timer
+    function startTimer(startTime) {
+      clearInterval(countdownInterval);
+
+      countdownInterval = setInterval(() => {
+        const elapsed = Math.floor((Date.now() - startTime) / 1000);
+        const remainingTime = countdownTime - elapsed;
+
+        if (remainingTime <= 0) {
+          clearInterval(countdownInterval);
+          document.getElementById("timer-display").innerText = "Time's up!";
+        } else {
+          document.getElementById("timer-display").innerText = remainingTime;
+        }
+      }, 1000);
+    }
+  </script>
+</body>
+</html>
