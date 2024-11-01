@@ -3,26 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hide and Seek - Seeker</title>
+  <title>Seeker</title>
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="../../css/hider.css">
+  <link rel="stylesheet" href="../../css/HideAndSeek.css">
 </head>
 <body>
   <div class="container text-center mt-5">
     <div class="title">Seeker</div>
     <div class="row button-container">
-      <div class="col-12">
+      <div class="col-12 col-md-6 mb-3">
         <a href="#" id="start-button">
-          <button class="btn btn-danger custom-btn">Start 60-Second Countdown</button>
+          <button class="btn btn-danger custom-btn">Start Game</button>
         </a>
       </div>
     </div>
-    <p id="timer-display">Waiting to start...</p>
+    <p id="timer-display" class="display-4">Waiting to start...</p>
     <div class="image-container mt-4">
       <img src="../../images/map.png" alt="The valid area of hide and seek stretches from Wright's Triangle to the Environmental Studies Building stairs." class="img-fluid centered-image">
     </div>
   </div>
-
   <script src="https://cdn.ably.io/lib/ably.min-1.js"></script>
   <script>
     const ably = new Ably.Realtime("vum2bA.xZH9jA:NNzp1GamB27aE7fGR0NrRR29MYQgawIKrGMCRVOXvw0");
@@ -57,5 +56,7 @@
       }, 1000);
     }
   </script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
