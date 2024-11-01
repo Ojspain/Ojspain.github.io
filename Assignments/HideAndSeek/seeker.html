@@ -1,32 +1,46 @@
-<script src="https://cdn.ably.io/lib/ably.min-1.js"></script>
-<script>
-  const ably = new Ably.Realtime("vum2bA.xZH9jA:NNzp1GamB27aE7fGR0NrRR29MYQgawIKrGMCRVOXvw0");
-  const channel = ably.channels.get("hide-and-seek-timer");
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hide and Seek - Seeker</title>
+  <script src="https://cdn.ably.io/lib/ably.min-1.js"></script>
+</head>
+<body>
+  <h1>Seeker</h1>
+  <button id="start-button">Start 60-Second Countdown</button>
+  <p id="timer-display">Waiting for countdown to start...</p>
 
-  let countdownTime = 60; // seconds
-  let countdownInterval;
+  <script>
+    const ably = new Ably.Realtime("vum2bA.xZH9jA:NNzp1GamB27aE7fGR0NrRR29MYQgawIKrGMCRVOXvw0");
+    const channel = ably.channels.get("hide-and-seek-timer");
 
-  // Start the timer and publish start time directly to Ably
-  document.getElementById("start-button").addEventListener("click", () => {
-    const startTime = Date.now();
-    channel.publish("start-timer", { startTime });
-    startTimer(startTime);
-  });
+    let countdownTime = 60; // seconds
+    let countdownInterval;
 
-  // Function to start the timer locally
-  function startTimer(startTime) {
-    clearInterval(countdownInterval);
+    // Start the timer and publish start time directly to Ably
+    document.getElementById("start-button").addEventListener("click", () => {
+      const startTime = Date.now();
+      channel.publish("start-timer", { startTime });
+      startTimer(startTime);
+    });
 
-    countdownInterval = setInterval(() => {
-      const elapsed = Math.floor((Date.now() - startTime) / 1000);
-      const remainingTime = countdownTime - elapsed;
+    // Function to start the timer locally
+    function startTimer(startTime) {
+      clearInterval(countdownInterval);
 
-      if (remainingTime <= 0) {
-        clearInterval(countdownInterval);
-        document.getElementById("timer-display").innerText = "Time's up!";
-      } else {
-        document.getElementById("timer-display").innerText = remainingTime;
-      }
-    }, 1000);
-  }
-</script>
+      countdownInterval = setInterval(() => {
+        const elapsed = Math.floor((Date.now() - startTime) / 1000);
+        const remainingTime = countdownTime - elapsed;
+
+        if (remainingTime <= 0) {
+          clearInterval(countdownInterval);
+          document.getElementById("timer-display").innerText = "Time's up!";
+        } else {
+          document.getElementById("timer-display").innerText = `${remainingTime} seconds remaining`;
+        }
+      }, 1000);
+    }
+  </script>
+</body>
+</html>
