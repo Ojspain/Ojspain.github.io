@@ -1,56 +1,32 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Seeker Page</title>
-</head>
-<body>
-  <div class="container text-center">
-    <h1>Seeker Page</h1>
-    <button id="start-button" class="btn btn-primary">Start Game</button>
-    <p id="timer-display" class="display-4">60</p>
-  </div>
+<script src="https://cdn.ably.io/lib/ably.min-1.js"></script>
+<script>
+  const ably = new Ably.Realtime("vum2bA.xZH9jA:NNzp1GamB27aE7fGR0NrRR29MYQgawIKrGMCRVOXvw0");
+  const channel = ably.channels.get("hide-and-seek-timer");
 
-  <script src="https://cdn.ably.io/lib/ably.min-1.js"></script>
-  <script>
-    const ably = new Ably.Realtime("vum2bA.xZH9jA:NNzp1GamB27aE7fGR0NrRR29MYQgawIKrGMCRVOXvw0");
-    const channel = ably.channels.get("hide-and-seek-timer");
+  let countdownTime = 60; // seconds
+  let countdownInterval;
 
-    let countdownTime = 60; // seconds
-    let countdownInterval;
+  // Start the timer and publish start time directly to Ably
+  document.getElementById("start-button").addEventListener("click", () => {
+    const startTime = Date.now();
+    channel.publish("start-timer", { startTime });
+    startTimer(startTime);
+  });
 
-    // Start the timer and publish start time to Ably
-    document.getElementById("start-button").addEventListener("click", async () => {
-      const response = await fetch("http://149.28.13.123/start-timer", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" }
-      });
+  // Function to start the timer locally
+  function startTimer(startTime) {
+    clearInterval(countdownInterval);
 
-      if (response.ok) {
-        const data = await response.json();
-        startTimer(data.startTime);
+    countdownInterval = setInterval(() => {
+      const elapsed = Math.floor((Date.now() - startTime) / 1000);
+      const remainingTime = countdownTime - elapsed;
+
+      if (remainingTime <= 0) {
+        clearInterval(countdownInterval);
+        document.getElementById("timer-display").innerText = "Time's up!";
       } else {
-        console.error("Failed to start timer");
+        document.getElementById("timer-display").innerText = remainingTime;
       }
-    });
-
-    // Function to start the timer locally
-    function startTimer(startTime) {
-      clearInterval(countdownInterval);
-
-      countdownInterval = setInterval(() => {
-        const elapsed = Math.floor((Date.now() - startTime) / 1000);
-        const remainingTime = countdownTime - elapsed;
-
-        if (remainingTime <= 0) {
-          clearInterval(countdownInterval);
-          document.getElementById("timer-display").innerText = "Time's up!";
-        } else {
-          document.getElementById("timer-display").innerText = remainingTime;
-        }
-      }, 1000);
-    }
-  </script>
-</body>
-</html>
+    }, 1000);
+  }
+</script>
