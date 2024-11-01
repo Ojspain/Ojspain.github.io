@@ -4,12 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hide and Seek - Seeker</title>
+  <link rel="stylesheet" href="hider.css">
   <script src="https://cdn.ably.io/lib/ably.min-1.js"></script>
 </head>
 <body>
-  <h1>Seeker</h1>
-  <button id="start-button">Start 60-Second Countdown</button>
-  <p id="timer-display">Waiting for countdown to start...</p>
+  <div class="container text-center mt-5">
+    <h1 class="title">Seeker</h1>
+    <button id="start-button" class="btn custom-btn">Start 60-Second Countdown</button>
+    <p id="timer-display" class="display-4 mt-4">Waiting to start...</p>
+  </div>
 
   <script>
     const ably = new Ably.Realtime("vum2bA.xZH9jA:NNzp1GamB27aE7fGR0NrRR29MYQgawIKrGMCRVOXvw0");
@@ -36,8 +39,10 @@
         if (remainingTime <= 0) {
           clearInterval(countdownInterval);
           document.getElementById("timer-display").innerText = "Time's up!";
+          document.body.style.backgroundColor = "red";
         } else {
           document.getElementById("timer-display").innerText = `${remainingTime} seconds remaining`;
+          document.body.style.backgroundColor = "white";
         }
       }, 1000);
     }
