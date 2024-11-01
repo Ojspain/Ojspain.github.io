@@ -17,6 +17,21 @@
     width: 100%;
     margin-bottom: 10px;
   }
+
+  .rules{
+    font-size: 1.4rem;
+    padding: 10px 5px;
+  }
+  
+
+  #timer-display {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #333;
+    word-wrap: break-word;
+    text-align: center;
+}
   
   @media (min-width: 768px) {
     .button-container {
