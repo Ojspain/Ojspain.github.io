@@ -4,14 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hide and Seek - Seeker</title>
-  <link rel="stylesheet" href="../../css/hider.css">
+  <link rel="stylesheet" href="hider.css">
   <script src="https://cdn.ably.io/lib/ably.min-1.js"></script>
 </head>
 <body>
   <div class="container text-center mt-5">
     <h1 class="title">Seeker</h1>
     <button id="start-button" class="btn custom-btn">Start 60-Second Countdown</button>
-    <p id="timer-display" class="display-4 mt-4">Waiting to start...</p>
+    <p id="timer-display" class="display-4 mt-4">Waiting for countdown to start...</p>
+    <div class="image-container mt-4">
+      <img src="../../images/map.png" alt="Map of hide and seek area" class="img-fluid centered-image" style="max-width: 80%; height: auto; padding: 10px;">
+    </div>
   </div>
 
   <script>
@@ -21,17 +24,14 @@
     let countdownTime = 60; // seconds
     let countdownInterval;
 
-    // Start the timer and publish start time directly to Ably
     document.getElementById("start-button").addEventListener("click", () => {
       const startTime = Date.now();
       channel.publish("start-timer", { startTime });
       startTimer(startTime);
     });
 
-    // Function to start the timer locally
     function startTimer(startTime) {
       clearInterval(countdownInterval);
-
       countdownInterval = setInterval(() => {
         const elapsed = Math.floor((Date.now() - startTime) / 1000);
         const remainingTime = countdownTime - elapsed;
