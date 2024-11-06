@@ -1,0 +1,209 @@
+[
+    {
+        "title": "Noita",
+        "steamlink": "https://store.steampowered.com/app/881100/Noita/",
+        "imageUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/881100/header.jpg",
+        "altText": "Altar covered in runes surrounded by green flame with the title 'Noita' over top",
+        "text": "Noita is a magical action roguelite set in a world where every pixel is physically simulated. Fight, explore, melt, burn, freeze, and evaporate your way through the procedurally generated world using spells you've created yourself.",
+        "genre": "Action, Indie, RPG",
+        "publisher": "Nolla Games"
+    },
+    {
+        "title": "Terraria",
+        "steamlink": "https://www.terraria.org/Steam",
+        "imageUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/105600/header.jpg",
+        "altText": "2 knights, a man, and a dryad stand in a field of green with small animals.",
+        "text": "Terraria is an open-world survival game where players dig, build, and fight to survive in a procedurally generated 2D world.",
+        "genre": "Action, Adventure, Indie, RPG",
+        "publisher": "Re-Logic"
+    },
+    {
+        "title": "Balatro",
+        "steamlink": "https://store.steampowered.com/app/2379780/Balatro/",
+        "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2379780/header.jpg?t=1730735362",
+        "altText": "Red and blue wisps surround the title text Balatro",
+        "text": "Balatro is a roguelike deckbuilder where players collect and use cards to create powerful combinations in a unique, procedurally generated world.",
+        "genre": "Casual, Indie, Strategy",
+        "publisher": "Playstack"
+    },
+    {
+        "title": "Baldur's Gate 3",
+        "steamlink": "https://store.steampowered.com/app/1086940/Baldurs_Gate_3/",
+        "imageUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1086940/header.jpg",
+        "altText": "A High Elf, Human, and Githyanki appear in a fog covered land with tentacles.",
+        "text": "Baldur's Gate 3 is an epic RPG with turn-based combat, set in the Dungeons & Dragons universe. Explore, strategize, and make choices that shape your unique adventure.",
+        "genre": "RPG, Adventure",
+        "publisher": "Larian Studios"
+    },
+    {
+        "title": "Exanima",
+        "steamlink": "https://store.steampowered.com/app/362490/Exanima/",
+        "imageUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/362490/header.jpg",
+        "altText": "Warrior kneeling in a dark catacomb filled with undead.",
+        "text": "Exanima is a unique physics-based dungeon crawler focused on complex melee combat and exploration, featuring detailed, dynamic environments.",
+        "genre": "Action, RPG, Indie",
+        "publisher": "Bare Mettle Entertainment"
+    },
+    {
+        "title": "ULTRAKILL",
+        "steamlink": "https://store.steampowered.com/app/1229490/ULTRAKILL/",
+        "imageUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1229490/header.jpg",
+        "altText": "Blue humanoid robot mid air firing a shotgun and pistol",
+        "text": "ULTRAKILL is a fast-paced retro-style FPS where players blast through demonic hordes using a unique blood-fueled healing mechanic.",
+        "genre": "Action, Indie",
+        "publisher": "New Blood Interactive"
+    },
+    {
+        "title": "UFO 50",
+        "steamlink": "https://store.steampowered.com/app/1147860/UFO_50/",
+        "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1147860/header.jpg",
+        "altText": "Space pirate Alpha wields her blaster, unaware of the alien slug lodged in the barrel.",
+        "text": "UFO 50 is a collection of fifty retro-style games created by a group of developers, offering a variety of genres in one unique package.",
+        "genre": "Indie, Action",
+        "publisher": "Derek Yu"
+    },
+    {
+        "title": "Wildermyth",
+        "steamlink": "https://store.steampowered.com/app/763890/Wildermyth/",
+        "imageUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/763890/header.jpg",
+        "altText": "A party of three adventurers and their companion pet face off against a horde of invading monsters.",
+        "text": "Wildermyth is a character-driven, procedurally generated RPG where players guide a band of heroes across multiple generations in a comic-style world.",
+        "genre": "RPG, Strategy, Indie",
+        "publisher": "Worldwalker Games LLC"
+    },
+    {
+        "title": "Pizza Tower",
+        "steamlink": "https://store.steampowered.com/app/2231450/Pizza_Tower/",
+        "imageUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2231450/header.jpg",
+        "altText": "A stressed chef holding common pizza toppings.",
+        "text": "Pizza Tower is a fast-paced platformer inspired by the Wario Land series. Play as Peppino Spaghetti, a nervous and overweight Italian trying to save his pizzeria from destruction.",
+        "genre": "Action, Platformer, Indie",
+        "publisher": "Tour De Pizza"
+    },
+    {
+        "title": "RimWorld",
+        "steamlink": "https://store.steampowered.com/app/294100/RimWorld/",
+        "imageUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/294100/header.jpg",
+        "altText": "View of an undeveloped planet from orbit with the Title RimWorld overlapping the stars.",
+        "text": "RimWorld is a sci-fi colony sim driven by an AI storyteller. Manage colonists, fend off threats, and watch your story unfold as you try to survive in a distant world.",
+        "genre": "Simulation, Strategy, Indie",
+        "publisher": "Ludeon Studios"
+    },
+    {
+        "title": "Guilty Gear Strive",
+        "steamlink": "https://store.steampowered.com/app/1384160/GUILTY_GEAR_STRIVE/",
+        "imageUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1384160/header.jpg",
+        "altText": "A blonde haired swordsman and a black haired swordsman bumping fists.",
+        "text": "Guilty Gear Strive is the latest entry in the acclaimed Guilty Gear series, featuring intense 2D fighting gameplay and an immersive story mode.",
+        "genre": "Action, Fighting",
+        "publisher": "Arc System Works"
+    },
+    {
+        "title": "Duck Game",
+        "steamlink": "https://store.steampowered.com/app/312530/Duck_Game/",
+        "imageUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/312530/header.jpg",
+        "altText": "Humanoid Duck in industrial setting fires their gun at an enemy below.",
+        "text": "Duck Game is a chaotic and fast-paced multiplayer game where players control armed ducks in various stages, battling for supremacy in quick, explosive matches.",
+        "genre": "Action, Indie, Casual",
+        "publisher": "Adult Swim Games"
+    },
+    {
+        "title": "Barony",
+        "steamlink": "https://store.steampowered.com/app/371970/Barony/",
+        "imageUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/371970/header.jpg",
+        "altText": "A rougue, a warrior, and a wizard fend off a swarm of enemies in a dungeon.",
+        "text": "Barony is a first-person roguelike RPG with cooperative multiplayer, where players navigate challenging dungeons filled with monsters, traps, and loot.",
+        "genre": "RPG, Indie",
+        "publisher": "Turning Wheel LLC"
+    },
+    {
+        "title": "Elden Ring",
+        "steamlink": "https://store.steampowered.com/app/1245620/ELDEN_RING/",
+        "imageUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/header.jpg",
+        "altText": "A series of interlocking golden runes shine in the sky over a vast foggy land.",
+        "text": "Elden Ring is an expansive action RPG set in a dark fantasy world, featuring vast exploration, intricate lore, and challenging combat.",
+        "genre": "Action, RPG",
+        "publisher": "FromSoftware Inc."
+    },
+    {
+        "title": "Lethal League Blaze",
+        "steamlink": "https://store.steampowered.com/app/553310/Lethal_League_Blaze/",
+        "imageUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/553310/header.jpg",
+        "altText": "Stitched up baseball player winds up a swing of their bat.",
+        "text": "Lethal League Blaze is a high-speed competitive ball game where players use powerful strikes and special abilities to outmaneuver and eliminate opponents.",
+        "genre": "Action, Indie, Sports",
+        "publisher": "Team Reptile"
+    },
+    {
+        "title": "Medieval Dynasty",
+        "steamlink": "https://store.steampowered.com/app/1129580/Medieval_Dynasty/",
+        "imageUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1129580/header.jpg",
+        "altText": "Peasant draws a bow to defend his village and family.",
+        "text": "Medieval Dynasty combines survival, simulation, and RPG elements, placing players in a medieval open world where they build, manage, and expand their own village.",
+        "genre": "Simulation, RPG, Survival",
+        "publisher": "Toplitz Productions"
+    },
+    {
+        "title": "Subnautica",
+        "steamlink": "https://store.steampowered.com/app/264710/Subnautica/",
+        "imageUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/264710/header.jpg",
+        "altText": "Scuba diver swims with local boomerang shaped fauna outside of their large submarine.",
+        "text": "Subnautica is an open-world survival game set in an alien ocean, where players explore, gather resources, and uncover the mysteries of the deep.",
+        "genre": "Action, Adventure, Survival",
+        "publisher": "Unknown Worlds Entertainment"
+    },
+    {
+        "title": "Green Hell",
+        "steamlink": "https://store.steampowered.com/app/815370/Green_Hell/",
+        "imageUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/815370/header.jpg",
+        "altText": "Injured man collapsed against boulder in the jungle.",
+        "text": "Green Hell is a survival game set in the Amazon rainforest. Players must gather resources, craft, and stay alive while facing both the environment and psychological challenges.",
+        "genre": "Survival, Simulation, Adventure",
+        "publisher": "Creepy Jar"
+    },
+    {
+        "title": "Dredge",
+        "steamlink": "https://store.steampowered.com/app/1562430/DREDGE/",
+        "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1562430/header.jpg?t=1725616576",
+        "altText": "Dark clouds roll in behind a lighthouse as a lone fishing boat braves the ocean waves.",
+        "text": "DREDGE is a single-player fishing adventure with a sinister undercurrent. Sell your catch, upgrade your boat, and dredge the depths for long-buried secrets. Explore a mysterious archipelago and discover why some things are best left forgotten.",
+        "genre": "Adventure, Simulation, Indie",
+        "publisher": "Black Salt Games"
+    },
+    {
+        "title": "Disco Elysium",
+        "steamlink": "https://store.steampowered.com/app/632470/Disco_Elysium/",
+        "imageUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/632470/header.jpg",
+        "altText": "A disheveled man with mutton chops stands next to a clean man with glasses as they brandish pistols.",
+        "text": "Disco Elysium is a groundbreaking RPG with a focus on storytelling, where players take on the role of a detective solving a murder in a deeply flawed city.",
+        "genre": "RPG, Adventure, Indie",
+        "publisher": "ZA/UM"
+    },
+    {
+        "title": "Inscryption",
+        "steamlink": "https://store.steampowered.com/app/1092790/Inscryption/",
+        "imageUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1092790/header.jpg",
+        "altText": "A face covered in shadow plays a card game in the dark.",
+        "text": "Inscryption is a dark and twisted deck-building game that blends roguelike mechanics, puzzle-solving, and narrative-driven gameplay in a unique horror atmosphere.",
+        "genre": "Indie, Card Game, Horror",
+        "publisher": "Devolver Digital"
+    },
+    {
+        "title": "Nuclear Throne",
+        "steamlink": "https://store.steampowered.com/app/242680/Nuclear_Throne/",
+        "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242680/header.jpg",
+        "altText": "A variety of armed and dangerous mutants sit around a campfire listening to a fishman play the guitar.",
+        "text": "Nuclear Throne is a top-down, post-apocalyptic roguelike shooter where players fight their way through mutant-filled levels to reach the ultimate goal: the Nuclear Throne.",
+        "genre": "Action, Indie, Roguelike",
+        "publisher": "Vlambeer"
+    },
+    {
+        "title": "World of Horror",
+        "steamlink": "https://store.steampowered.com/app/913740/WORLD_OF_HORROR/",
+        "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/913740/header.jpg",
+        "altText": "A group of monstrous school girls pose for a class photo.",
+        "text": "World of Horror is a retro-styled, cosmic horror RPG where players investigate paranormal events in a small Japanese town, battling dark forces and uncovering terrifying secrets.",
+        "genre": "RPG, Horror, Indie",
+        "publisher": "Ysbryd Games"
+    }
+]
