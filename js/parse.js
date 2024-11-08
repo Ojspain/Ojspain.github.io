@@ -5,14 +5,16 @@ document.addEventListener('DOMContentLoaded', function() {
             const contentDiv = document.getElementById('content');
             data.forEach(item => {
                 const section = document.createElement('section');
+
+                let imagesHtml = '';
+                item.images.forEach(image => {
+                    imagesHtml += `<img src="${image.url}" alt="${image.alt}" style="width:100%;max-width:300px;margin:10px 0;">`;
+                });
+
                 section.innerHTML = `
-                    <h2>${item.name}</h2>
+                    <h2>${item.name}</h2> 
                     
-                    <div class="image-grid">
-                        ${item.images.map(img => `
-                            <img src="${img.url}" alt="${img.alt}">
-                        `).join('')}
-                    </div>
+                    ${imagesHtml}
                     
                     <p><strong>Location Found: ${item.foundAt}</strong></p>
                     
