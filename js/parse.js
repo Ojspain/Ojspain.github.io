@@ -1,48 +1,49 @@
-// Fetch the houseBibleData JSON
-fetch('../Assignments/HouseBible.json')
-  .then(response => response.json())
-  .then(data => {
-    const container = document.getElementById('carousel-container');
-    
-    // Loop through the fetched data to create carousels for each item
-    data.forEach((item, index) => {
-      const carouselId = `carousel${index}`;
-      
-      let carouselHTML = `
-        <div id="${carouselId}" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">`;
+document.addEventListener('DOMContentLoaded', function() {
+    fetch('../Assignments/HouseBible.json')
+        .then(response => response.json())
+        .then(data => {
+            const contentDiv = document.getElementById('content');
+            data.forEach(item => {
+                // Create a section for each item
+                const section = document.createElement('section');
+                
+                // Create the Bootstrap carousel structure
+                let carouselItems = item.images.map((image, index) => {
+                    return `
+                        <div class="carousel-item ${index === 0 ? 'active' : ''}">
+                            <img src="${image.url}" class="d-block w-100" alt="${image.alt}">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>${item.name}</h5>
+                                <p>Found at: ${item.foundAt}</p>
+                                <p>${item.description}</p>
+                            </div>
+                        </div>
+                    `;
+                }).join('');
 
-      // Add carousel images
-      item.images.forEach((image, imgIndex) => {
-        carouselHTML += `
-          <div class="carousel-item ${imgIndex === 0 ? 'active' : ''}">
-            <img src="${image.url}" class="d-block w-100" alt="${image.alt}">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>${item.name}</h5>
-            </div>
-          </div>`;
-      });
-
-      carouselHTML += `
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#${carouselId}" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#${carouselId}" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-        <div class="description">
-          <p><strong>Category:</strong> ${item.category.join(', ')}</p>
-          <p><strong>Found At:</strong> ${item.foundAt}</p>
-          <p><strong>Description:</strong> ${item.description}</p>
-        </div>
-        <hr>`;
-
-      // Append the carousel to the container
-      container.innerHTML += carouselHTML;
-    });
-  })
-  .catch(error => console.error('Error fetching data:', error));
+                // Create the full carousel with controls
+                section.innerHTML = `
+                    <div id="carousel-${item.name.replace(/\s+/g, '-')}" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            ${carouselItems}
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-${item.name.replace(/\s+/g, '-')}" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel-${item.name.replace(/\s+/g, '-')}" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                        <div class="carousel-indicators">
+                            ${item.images.map((image, index) => {
+                                return `<button type="button" data-bs-target="#carousel-${item.name.replace(/\s+/g, '-')}" data-bs-slide-to="${index}" class="${index === 0 ? 'active' : ''}" aria-current="true" aria-label="Slide ${index + 1}"></button>`;
+                            }).join('')}
+                        </div>
+                    </div>
+                `;
+                contentDiv.appendChild(section);
+            });
+        })
+        .catch(error => console.error('Error loading the data:', error));
+});
