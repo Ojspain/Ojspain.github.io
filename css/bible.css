@@ -8,7 +8,7 @@ body{
 
 section {
     display: inline-block;
-    max-width: 300px;  
+    max-width: 500px;  
     border-color: black;
     border-width: 1px;
     border-style:none; 
@@ -16,8 +16,24 @@ section {
     margin:10px;
     background-color: #F5F5F5;
     text-align: left;
-    box-shadow: 10px 10px lightblue;
 }
+
+.image-grid {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    justify-items: center;
+}
+
+.image-grid img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    object-fit: cover;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
 
 
 footer{
