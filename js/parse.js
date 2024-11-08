@@ -3,12 +3,22 @@ document.addEventListener('DOMContentLoaded', function() {
         .then(response => response.json())
         .then(data => {
             const contentDiv = document.getElementById('content');
+            contentDiv.style.display = 'flex'; 
+            contentDiv.style.flexDirection = 'column'; 
+            contentDiv.style.alignItems = 'center'; 
+            contentDiv.style.gap = '20px'; // Adds spacing between items
+
             data.forEach(item => {
                 const section = document.createElement('section');
+                section.style.width = '100%'; 
+                section.style.maxWidth = '400px'; // Adjust max width
+                section.style.border = '1px solid #ccc'; 
+                section.style.padding = '10px'; 
+                section.style.boxShadow = '0 0 10px rgba(0, 0, 0, 0.1)';
 
                 let imagesHtml = '';
                 item.images.forEach(image => {
-                    imagesHtml += `<img src="${image.url}" alt="${image.alt}" style="width:100%;max-width:300px;margin:10px 0;">`;
+                    imagesHtml += `<img src="${image.url}" alt="${image.alt}" style="width:100%;margin:10px 0;">`;
                 });
 
                 section.innerHTML = `
