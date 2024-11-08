@@ -1,10 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
-
-body{
-    background-color: #dce9f7;
-    text-align: center;
+body {
+    font-family: 'Lato', Helvetica, serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('tile.png');
+    background-repeat: repeat;
+    background-size: auto;
 }
 
+h1{
+    font-size: 3em;
+    font-family: 'Playfair Display', Helvetica, serif;
+}
+
+.filter-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2em;
+    font-size: 1.3em;
+}
+
+.filter-container label{
+    margin-left: 1em;
+}
+  
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+  
+button {
+    margin-left: 1em;
+    padding: 5px 10px;
+}
+  
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.angel-gif {
+    width: 128px;
+    height: 181px;
+}
+
+.left {
+    transform: scaleX(-1);
+    margin-right: 20px;
+}
+
+.right {
+    margin-left: 20px;
+}
 
 section {
     display: inline-block;
@@ -15,7 +69,7 @@ section {
     padding:20px;
     margin:10px;
     background-color: #F5F5F5;
-    text-align: center;
+    text-align: left;
+    box-shadow: 10px 10px lightblue;
 }
-
 
