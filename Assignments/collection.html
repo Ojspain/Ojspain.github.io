@@ -4,15 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>House Bible Collection</title>
-    <link rel="stylesheet" href="../css/bible.css">
+    <link rel="stylesheet" href="bible.css">
 </head>
 <body>
-    <h1>House Bible Collection <span style='font-size:60px;'>&#x271F;</span></h1>
+    <div class="header-container">
+        <img src="angel.gif" alt="Angel Left" class="angel-gif left"> 
+        <h1>House Bible Collection <span style='font-size:50px;'>&#x271F;</span></h1>
+        <img src="angel.gif" alt="Angel Right" class="angel-gif right">
+    </div>
+    <div class="filter-container">
+        <label>
+          <input type="checkbox" name="category" value="Miscellaneous"> Miscellaneous
+        </label>
+        <label>
+          <input type="checkbox" name="category" value="Advertisement"> Advertisement
+        </label>
+        <label>
+            <input type="checkbox" name="category" value="EREN"> EREN
+          </label>
+        <label>
+          <input type="checkbox" name="category" value="Religious"> Religious
+        </label>
+        <label>
+          <input type="checkbox" name="category" value="Pamphlet"> Pamphlet
+        </label>
+        <label>
+          <input type="checkbox" name="category" value="Gathering the Harvest"> Gathering the Harvest
+        </label>
+        <button id="filter-btn">Filter</button>
+    </div>
     <div id="content"></div>
-    <script src="../js/parse.js"></script>
+    <script src="parse.js"></script>
 </body>
 </html>
-
-
-
-
