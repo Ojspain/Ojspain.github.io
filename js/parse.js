@@ -15,12 +15,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
             data.forEach(item => {
                 const section = document.createElement('section');
-                section.style.width = '100%'; 
-                section.style.maxWidth = '400px';
-                section.style.border = '1px solid #ccc'; 
-                section.style.padding = '10px'; 
-                section.style.boxShadow = '0 0 10px rgba(0, 0, 0, 0.1)';
-
                 let imagesHtml = '';
                 item.images.forEach(image => {
                     imagesHtml += `<img src="${image.url}" alt="${image.alt}" style="width:100%;margin:10px 0;">`;
@@ -44,11 +38,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 data.forEach(item => {
                     if (item.category.some(cat => selectedCategories.includes(cat))) {
                         const section = document.createElement('section');
-                        section.style.width = '100%'; 
-                        section.style.maxWidth = '400px';
-                        section.style.border = '1px solid #ccc'; 
-                        section.style.padding = '10px'; 
-                        section.style.boxShadow = '0 0 10px rgba(0, 0, 0, 0.1)';
         
                         let imagesHtml = '';
                         item.images.forEach(image => {
