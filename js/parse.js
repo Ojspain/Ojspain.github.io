@@ -6,9 +6,13 @@ document.addEventListener('DOMContentLoaded', function() {
             data.forEach(item => {
                 const section = document.createElement('section');
                 section.innerHTML = `
-                    <h2>${item.name}</h2> 
+                    <h2>${item.name}</h2>
                     
-                    <img src="${item.images[0].url}" alt="${item.images[0].alt}" style="width:100%;max-width:300px;">
+                    <div class="image-grid">
+                        ${item.images.map(img => `
+                            <img src="${img.url}" alt="${img.alt}">
+                        `).join('')}
+                    </div>
                     
                     <p><strong>Location Found: ${item.foundAt}</strong></p>
                     
