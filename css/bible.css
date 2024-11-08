@@ -1,21 +1,25 @@
-.carousel-inner {
-  text-align: center;
+
+
+body{
+    background-color: #dce9f7;
+    text-align: center;
 }
 
-.carousel-item img {
-  width: 100%;
-  height: auto;
+
+section {
+    display: inline-block;
+    max-width: 300px;  
+    border-color: black;
+    border-width: 1px;
+    border-style:none; 
+    padding:20px;
+    margin:10px;
+    background-color: #F5F5F5;
+    text-align: left;
+    box-shadow: 10px 10px lightblue;
 }
 
-.carousel-caption {
-  position: absolute;
-  top: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  color: white;
-}
 
-.description {
-  margin-top: 20px;
-  font-size: 1.1em;
+footer{
+margin:40px;
 }
