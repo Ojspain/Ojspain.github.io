@@ -89,6 +89,15 @@ var elizaKeywords = [
     ["* film *", [
         "Fer great film suggestions, try [BroFlix](https://broflix.cc/)—ye’ll find treasures there!",
         "Ye can explore classic films on [Heartive](https://heartive.pages.dev/), if ye seek somethin' grand!"
+    ]],
+    ["* films *", [
+        "I recommend checkin' out [BroFlix](https://broflix.cc/) fer the latest films, arrr!",
+        "Ye might enjoy watchin' movies over at [FreeK](https://freek.to/), ye salty dog.",
+        "Have ye tried watchin' films on [Heartive](https://heartive.pages.dev/)? They'll be keepin' ye entertained!"
+    ]],
+    ["* movies *", [
+        "Fer great film suggestions, try [BroFlix](https://broflix.cc/)—ye’ll find treasures there!",
+        "Ye can explore classic films on [Heartive](https://heartive.pages.dev/), if ye seek somethin' grand!"
     ]]
   ]],
 
