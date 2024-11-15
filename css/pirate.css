@@ -26,15 +26,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    gap: 20px;
     position: relative;
 }
 
 .keywords-image {
-    position: absolute;
-    left: -180px;
-    top: 50px;
     max-width: 150px;
     height: auto;
+    position: relative;
+    top: 0;
+    left: 0;
 }
 
 .main-content {
