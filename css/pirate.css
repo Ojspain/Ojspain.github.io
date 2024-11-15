@@ -18,7 +18,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Full viewport height */
+    height: 100vh;
     flex-direction: column;
 }
 
@@ -34,15 +34,15 @@ body {
     justify-content: center;
     align-items: flex-start;
     position: relative;
-    width: 80%; /* Ensures it doesn't stretch beyond a certain width */
+    width: 80%;
 }
 
 .keywords-image {
     max-width: 150px;
     height: auto;
     position: absolute;
-    left: -180px; /* Positions it off to the left of the main content */
-    top: 50px; /* Adjust as needed */
+    left: -180px;
+    top: 50px;
 }
 
 .main-content {
@@ -52,6 +52,12 @@ body {
 
 .header-image {
     max-width: 3.5em;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
 }
 
 .header-title {
