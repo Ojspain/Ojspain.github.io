@@ -4,20 +4,18 @@
 
 var elizaInitials = [
   "Ahoy there, matey! What be troublin' ye today? Speak up, and let’s see if we can find ye some good entertainment!",
-  "Arrr, ye seem like ye be in need o' somethin' to pass the time. Tell ol' Cap'n what ye be lookin' for!",
-  "Ahoy, ye salty sea dog! What media treasure be ye seekin' today? Let ol' Cap'n help ye find somethin’ grand!"
+  "Arrr, ye seem like ye be in need o' somethin' to pass the time. Tell ol' Bootleg Bonnie what ye be lookin' for!",
+  "Ahoy, ye salty sea dog! What media treasure be ye seekin' today? Let ol' Bootleg Bonnie help ye find somethin’ grand!"
   ];
   
   var elizaFinals = [
   "Farewell, matey! May yer sails be full and yer tankard never empty!",
   "Arrr, it’s been a fine time chatin’ with ye. Until we meet again on the high seas, matey!",
   "Goodbye, ye jolly scallywag! May yer next adventure be filled with joy and treasure!",
-  "This was a good session, wasn’t it, mate? But alas, all good things must come to an end. Farewell, until next time!",
   "Arrr, maybe we’ll meet again soon for more treasure hunts! Until then, fair winds to ye!"
   ];
   
   var elizaQuits = [
-  "ahoy",
   "farewell",
   "be off",
   "set sail",
