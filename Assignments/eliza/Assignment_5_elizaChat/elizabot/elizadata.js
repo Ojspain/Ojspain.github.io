@@ -66,7 +66,12 @@ var elizaInitials = [
   "everyone": ["everybody", "no one", "every pirate", "the crew"],
   "family": ["mother", "mom", "father", "dad", "sister", "brother", "wife", "children", "child", "shipmates", "crew"],
   "happy": ["elated", "glad", "better", "filled with rum", "cheerful", "feelin’ lucky"],
-  "sad": ["unhappy", "down in the dumps", "mournful", "sea sick", "unfortunate"]
+  "sad": ["unhappy", "down in the dumps", "mournful", "sea sick", "unfortunate"],
+  "book": ["books", "novel", "novels", "comic", "comics"],
+  "movie": ["movies", "film", "films"],
+  "music": ["songs", "tunes", "song"],
+  "game": ["games", "video games"],
+  "sport": ["sports"]
   };
 
 var elizaKeywords = [
@@ -85,19 +90,6 @@ var elizaKeywords = [
         "I recommend checkin' out [BroFlix](https://broflix.cc/) fer the latest films, arrr!",
         "Ye might enjoy watchin' movies over at [FreeK](https://freek.to/), ye salty dog.",
         "Have ye tried watchin' movies on [Heartive](https://heartive.pages.dev/)? They'll be keepin' ye entertained!"
-    ]],
-    ["* film *", [
-        "Fer great film suggestions, try [BroFlix](https://broflix.cc/)—ye’ll find treasures there!",
-        "Ye can explore classic films on [Heartive](https://heartive.pages.dev/), if ye seek somethin' grand!"
-    ]],
-    ["* films *", [
-        "I recommend checkin' out [BroFlix](https://broflix.cc/) fer the latest films, arrr!",
-        "Ye might enjoy watchin' movies over at [FreeK](https://freek.to/), ye salty dog.",
-        "Have ye tried watchin' films on [Heartive](https://heartive.pages.dev/)? They'll be keepin' ye entertained!"
-    ]],
-    ["* movies *", [
-        "Fer great film suggestions, try [BroFlix](https://broflix.cc/)—ye’ll find treasures there!",
-        "Ye can explore classic films on [Heartive](https://heartive.pages.dev/), if ye seek somethin' grand!"
     ]]
   ]],
 
@@ -105,10 +97,6 @@ var elizaKeywords = [
     ["* music *", [
         "Check out [Cobalt Tools](https://cobalt.tools/) fer the finest tunes, matey!",
         "Ye might be enjoyin' the sweet melodies over at [Lucida](https://lucida.to/) fer all yer ear pleasures."
-    ]],
-    ["* song *", [
-        "If ye be lookin' fer songs, try [Cobalt Tools](https://cobalt.tools/), arrr!",
-        "Ye can explore the latest hits on [Lucida](https://lucida.to/), ye savvy pirate!"
     ]]
   ]],
 
@@ -117,10 +105,6 @@ var elizaKeywords = [
         "Lookin' fer a good read? Try [LibGen](https://libgen.mx/) fer a treasure trove of books!",
         "How 'bout browsin' through [Goodreads](https://www.goodreads.com) fer some pirate tales and adventures?",
         "Arrr, ye could try [ComixExtra](https://comixextra.com/) fer comics fit fer a pirate!"
-    ]],
-    ["* novel *", [
-        "Ye might enjoy readin' the latest novels on [Goodreads](https://www.goodreads.com), ye landlubber.",
-        "For a hearty read, try [LibGen](https://libgen.mx/), where ye can find great stories!"
     ]]
   ]],
 
@@ -128,14 +112,6 @@ var elizaKeywords = [
     ["* game *", [
         "If ye be into games, check out [GOG Games](https://gog-games.to/) fer a bounty of titles, arrr!",
         "Ye might like explorin' game reviews on [SteamRip](https://steamrip.com/), ye salty pirate."
-    ]],
-    ["* video game *", [
-        "Fer the latest in video games, visit [GOG Games](https://gog-games.to/), matey!",
-        "Want to find new games? Try browsin' [SteamRip](https://steamrip.com/), ye scallywag!"
-    ]],
-    ["* video games *", [
-        "Fer the latest in video games, visit [GOG Games](https://gog-games.to/), matey!",
-        "Want to find new games? Try browsin' [SteamRip](https://steamrip.com/), ye scallywag!"
     ]]
   ]],
 
@@ -143,10 +119,6 @@ var elizaKeywords = [
     ["* sport *", [
         "Ye can catch the latest action on [Sport-Video](https://www.sport-video.org.ua/), fer all yer sporting needs.",
         "Want high-def sports? [SportsHD](https://sportshd.app/) be the place to go, matey!"
-    ]],
-    ["* game *", [
-        "Ye can find sports at [Sport-Video](https://www.sport-video.org.ua/), arrrr!",
-        "Look fer high-quality games over at [SportsHD](https://sportshd.app/) fer yer viewing pleasure!"
     ]]
   ]],
 
@@ -154,10 +126,6 @@ var elizaKeywords = [
     ["* software *", [
         "Look no further than [CrackURL](https://cracksurl.com/) fer yer cracked software needs, ye savvy?",
         "Ye can find yer software treasures at [AE Download](https://aedownload.com/)!"
-    ]],
-    ["* tool *", [
-        "Check out [Cobalt Tools](https://cobalt.tools/) fer the best tools on the seven seas!",
-        "If ye be in need o' software, ye should look to [Lucida](https://lucida.to/) fer a fine collection!"
     ]]
   ]],
 
