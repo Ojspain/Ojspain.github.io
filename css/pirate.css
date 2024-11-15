@@ -57,7 +57,7 @@ body {
 .buttons-container {
     display: flex;
     justify-content: flex-end;
-    gap: 10px;
+    gap: 5px;
 }
 
 .header-title {
@@ -65,6 +65,6 @@ body {
 }
 
 .footer-link a {
-    color: red;
+    color: black;
     font-size: 1em;
 }
