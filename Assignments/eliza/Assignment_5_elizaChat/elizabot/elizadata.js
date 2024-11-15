@@ -132,6 +132,10 @@ var elizaKeywords = [
     ["* video game *", [
         "Fer the latest in video games, visit [GOG Games](https://gog-games.to/), matey!",
         "Want to find new games? Try browsin' [SteamRip](https://steamrip.com/), ye scallywag!"
+    ]],
+    ["* video games *", [
+        "Fer the latest in video games, visit [GOG Games](https://gog-games.to/), matey!",
+        "Want to find new games? Try browsin' [SteamRip](https://steamrip.com/), ye scallywag!"
     ]]
   ]],
 
