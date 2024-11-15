@@ -155,7 +155,7 @@ var elizaKeywords = [
     ["* video game *", [
         "Fer the latest in video games, visit [GOG Games](https://gog-games.to/), matey!",
         "Want to find new games? Try browsin' [SteamRip](https://steamrip.com/), ye scallywag!"
-    ]]
+    ]],
     ["* games *", [
         "If ye be into games, check out [GOG Games](https://gog-games.to/) fer a bounty of titles, arrr!",
         "Ye might like plunderin' games on [SteamRip](https://steamrip.com/), ye salty pirate."
