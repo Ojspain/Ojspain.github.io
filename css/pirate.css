@@ -24,14 +24,20 @@ body {
 }
 .content-container {
     display: flex;
-    align-items: flex-start; /* Align the top of the image and content */
     justify-content: center;
-    gap: 20px; /* Adjust the gap between the image and the content as needed */
+    align-items: flex-start;
+    position: relative;
 }
 
 .keywords-image {
-    max-width: 150px; /* Adjust image width as needed */
+    position: absolute;
+    left: -180px;
+    max-width: 150px;
     height: auto;
+}
+
+.main-content {
+    text-align: center;
 }
 .header-image {
     max-width: 3.5em;
