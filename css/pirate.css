@@ -30,3 +30,9 @@ body {
 .header-title {
     margin: 0;
 }
+
+.footer-link{
+    color: red;
+    font-size: 1em;
+    
+}
