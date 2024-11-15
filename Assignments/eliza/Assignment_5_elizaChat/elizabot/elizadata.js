@@ -184,7 +184,7 @@ var elizaKeywords = [
   ]],
   ["comics", 10, [
     ["* comics *", [
-        "Lookin' fer a good read? Try [LibGen](https://libgen.mx/) fer a treasure trove of books!",
+	"How 'bout browsin' through [ComixExtra](https://comixextra.com/) fer comics fit fer a pirate!",
         "Arrr, ye could try [ComixExtra](https://comixextra.com/) fer comics fit fer a pirate!"
     ]]
   ]],
