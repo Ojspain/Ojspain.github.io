@@ -110,6 +110,27 @@ var elizaKeywords = [
         "Have ye tried watchin' movies on [Heartive](https://heartive.pages.dev/)? They'll be keepin' ye entertained!"
     ]]
   ]],
+  ["TV", 10, [
+    ["* TV *", [
+        "I recommend checkin' out [BroFlix](https://broflix.cc/) fer the latest films, arrr!",
+        "Ye might enjoy watchin' movies over at [FreeK](https://freek.to/), ye salty dog.",
+        "Have ye tried watchin' movies on [Heartive](https://heartive.pages.dev/)? They'll be keepin' ye entertained!"
+    ]]
+  ]],
+  ["shows", 10, [
+    ["* shows *", [
+        "I recommend checkin' out [BroFlix](https://broflix.cc/) fer the latest films, arrr!",
+        "Ye might enjoy watchin' movies over at [FreeK](https://freek.to/), ye salty dog.",
+        "Have ye tried watchin' movies on [Heartive](https://heartive.pages.dev/)? They'll be keepin' ye entertained!"
+    ]]
+  ]],
+  ["episodes", 10, [
+    ["* episodes *", [
+        "I recommend checkin' out [BroFlix](https://broflix.cc/) fer the latest films, arrr!",
+        "Ye might enjoy watchin' movies over at [FreeK](https://freek.to/), ye salty dog.",
+        "Have ye tried watchin' movies on [Heartive](https://heartive.pages.dev/)? They'll be keepin' ye entertained!"
+    ]]
+  ]],
 
   ["music", 10, [
     ["* music *", [
