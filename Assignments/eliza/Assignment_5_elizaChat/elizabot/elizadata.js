@@ -83,21 +83,23 @@ var elizaKeywords = [
   ["movie", 10, [
     ["* movie *", [
         "I recommend checkin' out [BroFlix](https://broflix.cc/) fer the latest films, arrr!",
+        "Ye might find a movie to enjoy over at [FreeK](https://freek.to/), ye salty dog.",
+        "Have ye tried watchin' movies on [Heartive](https://heartive.pages.dev/)? They'll be keepin' ye entertained!"
+    ]],
+    ["* movies *", [
+        "I recommend checkin' out [BroFlix](https://broflix.cc/) fer the latest films, arrr!",
         "Ye might enjoy watchin' movies over at [FreeK](https://freek.to/), ye salty dog.",
         "Have ye tried watchin' movies on [Heartive](https://heartive.pages.dev/)? They'll be keepin' ye entertained!"
     ]],
     ["* film *", [
-        "Fer great film suggestions, try [BroFlix](https://broflix.cc/)—ye’ll find treasures there!",
-        "Ye can explore classic films on [Heartive](https://heartive.pages.dev/), if ye seek somethin' grand!"
+        "I recommend checkin' out [BroFlix](https://broflix.cc/) fer the latest films, arrr!",
+        "Ye might enjoy watchin' films over at [FreeK](https://freek.to/), ye salty dog.",
+        "Have ye tried watchin' movies on [Heartive](https://heartive.pages.dev/)? They'll be keepin' ye entertained!"
     ]],
     ["* films *", [
         "I recommend checkin' out [BroFlix](https://broflix.cc/) fer the latest films, arrr!",
-        "Ye might enjoy watchin' movies over at [FreeK](https://freek.to/), ye salty dog.",
+        "Ye might enjoy watchin' films over at [FreeK](https://freek.to/), ye salty dog.",
         "Have ye tried watchin' films on [Heartive](https://heartive.pages.dev/)? They'll be keepin' ye entertained!"
-    ]],
-    ["* movies *", [
-        "Fer great film suggestions, try [BroFlix](https://broflix.cc/)—ye’ll find treasures there!",
-        "Ye can explore classic films on [Heartive](https://heartive.pages.dev/), if ye seek somethin' grand!"
     ]]
   ]],
 
@@ -108,20 +110,41 @@ var elizaKeywords = [
     ]],
     ["* song *", [
         "If ye be lookin' fer songs, try [Cobalt Tools](https://cobalt.tools/), arrr!",
-        "Ye can explore the latest hits on [Lucida](https://lucida.to/), ye savvy pirate!"
+        "Ye can plunder the latest hits on [Lucida](https://lucida.to/), ye savvy pirate!"
+    ]],
+    ["* songs *", [
+        "If ye be lookin' fer songs, try [Cobalt Tools](https://cobalt.tools/), arrr!",
+        "Ye can plunder the latest hits on [Lucida](https://lucida.to/), ye savvy pirate!"
     ]]
   ]],
 
   ["book", 10, [
     ["* book *", [
         "Lookin' fer a good read? Try [LibGen](https://libgen.mx/) fer a treasure trove of books!",
-        "How 'bout browsin' through [Goodreads](https://www.goodreads.com) fer some pirate tales and adventures?",
-        "Arrr, ye could try [ComixExtra](https://comixextra.com/) fer comics fit fer a pirate!"
+        "How 'bout browsin' through [Gutenberg](https://www.gutenberg.org/) fer some pirate tales and adventures?"
+    ]],
+    ["* books *", [
+        "Lookin' fer a good read? Try [LibGen](https://libgen.mx/) fer a treasure trove of books!",
+        "How 'bout browsin' through [Gutenberg](https://www.gutenberg.org/) fer some pirate tales and adventures?"
     ]],
     ["* novel *", [
-        "Ye might enjoy readin' the latest novels on [Goodreads](https://www.goodreads.com), ye landlubber.",
-        "For a hearty read, try [LibGen](https://libgen.mx/), where ye can find great stories!"
+        "Lookin' fer a good read? Try [LibGen](https://libgen.mx/) fer a treasure trove of books!",
+        "How 'bout browsin' through [Gutenberg](https://www.gutenberg.org/) fer some pirate tales and adventures?"
+    ]],
+    ["* novels *", [
+        "Lookin' fer a good read? Try [LibGen](https://libgen.mx/) fer a treasure trove of books!",
+        "How 'bout browsin' through [Gutenberg](https://www.gutenberg.org/) fer some pirate tales and adventures?"
+    ]],
+    ["* comics *", [
+        "Arrr, ye could try [ComixExtra](https://comixextra.com/) fer comics fit fer a pirate!"
+    ]],
+    ["* comic *", [
+        "Arrr, ye could try [ComixExtra](https://comixextra.com/) fer comics fit fer a pirate!"
+    ]],
+    ["* manga *", [
+        "Arrr, ye could try [MangaDex](https://mangadex.org/) fer manga fit fer a pirate!"
     ]]
+
   ]],
 
   ["game", 10, [
@@ -133,6 +156,14 @@ var elizaKeywords = [
         "Fer the latest in video games, visit [GOG Games](https://gog-games.to/), matey!",
         "Want to find new games? Try browsin' [SteamRip](https://steamrip.com/), ye scallywag!"
     ]]
+    ["* games *", [
+        "If ye be into games, check out [GOG Games](https://gog-games.to/) fer a bounty of titles, arrr!",
+        "Ye might like plunderin' games on [SteamRip](https://steamrip.com/), ye salty pirate."
+    ]],
+    ["* video games *", [
+        "Fer the latest in video games, visit [GOG Games](https://gog-games.to/), matey!",
+        "Want to find new games? Try plunderin' [SteamRip](https://steamrip.com/), ye scallywag!"
+    ]]
   ]],
 
   ["sports", 10, [
@@ -140,7 +171,7 @@ var elizaKeywords = [
         "Ye can catch the latest action on [Sport-Video](https://www.sport-video.org.ua/), fer all yer sporting needs.",
         "Want high-def sports? [SportsHD](https://sportshd.app/) be the place to go, matey!"
     ]],
-    ["* game *", [
+    ["* sports *", [
         "Ye can find sports at [Sport-Video](https://www.sport-video.org.ua/), arrrr!",
         "Look fer high-quality games over at [SportsHD](https://sportshd.app/) fer yer viewing pleasure!"
     ]]
@@ -148,12 +179,10 @@ var elizaKeywords = [
 
   ["software", 10, [
     ["* software *", [
-        "Look no further than [CrackURL](https://cracksurl.com/) fer yer cracked software needs, ye savvy?",
-        "Ye can find yer software treasures at [AE Download](https://aedownload.com/)!"
+        "Look no further than [CrackURL](https://cracksurl.com/) fer yer cracked software needs, ye savvy?"
     ]],
-    ["* tool *", [
-        "Check out [Cobalt Tools](https://cobalt.tools/) fer the best tools on the seven seas!",
-        "If ye be in need o' software, ye should look to [Lucida](https://lucida.to/) fer a fine collection!"
+    ["* adobe *", [
+        "Ye can find yer adobe package treasures at [AE Download](https://aedownload.com/)!"
     ]]
   ]],
 
@@ -165,7 +194,7 @@ var elizaKeywords = [
 
   ["hello", 0, [
     ["*", [
-        "Ahoy, matey! What be yer problem? Speak yer mind!"
+        "Ahoy, matey! What media do ye seek? Speak yer mind!"
     ]]
   ]]
 ];
