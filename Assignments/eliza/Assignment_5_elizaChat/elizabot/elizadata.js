@@ -85,7 +85,7 @@ var elizaKeywords = [
   ]],
 
   // Adding media-related responses with pirate speech
-  ["movie", 10, [
+  ["movies", 10, [
     ["* movies *", [
         "I recommend checkin' out [BroFlix](https://broflix.cc/) fer the latest films, arrr!",
         "Ye might enjoy watchin' movies over at [FreeK](https://freek.to/), ye salty dog.",
@@ -100,7 +100,7 @@ var elizaKeywords = [
     ]]
   ]],
 
-  ["book", 10, [
+  ["books", 10, [
     ["* books *", [
         "Lookin' fer a good read? Try [LibGen](https://libgen.mx/) fer a treasure trove of books!",
         "How 'bout browsin' through [Goodreads](https://www.goodreads.com) fer some pirate tales and adventures?",
@@ -108,7 +108,7 @@ var elizaKeywords = [
     ]]
   ]],
 
-  ["game", 10, [
+  ["games", 10, [
     ["* games *", [
         "If ye be into games, check out [GOG Games](https://gog-games.to/) fer a bounty of titles, arrr!",
         "Ye might like explorin' game reviews on [SteamRip](https://steamrip.com/), ye salty pirate."
