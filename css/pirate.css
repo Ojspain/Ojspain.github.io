@@ -31,16 +31,17 @@ body {
 }
 
 .keywords-image {
+    position: static;
+    margin-right: 20px; /* Adjusts spacing between the keywords image and main content */
     max-width: 150px;
     height: auto;
-    position: relative;
-    top: 50;
-    left: -20;
 }
 
 .main-content {
     text-align: center;
+    flex-grow: 1; /* Ensures main content takes available space */
 }
+
 .header-image {
     max-width: 3.5em;
 }
