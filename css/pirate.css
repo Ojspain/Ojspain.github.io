@@ -22,7 +22,17 @@ body {
     justify-content: center;
     gap: 20px;
 }
+.content-container {
+    display: flex;
+    align-items: flex-start; /* Align the top of the image and content */
+    justify-content: center;
+    gap: 20px; /* Adjust the gap between the image and the content as needed */
+}
 
+.keywords-image {
+    max-width: 150px; /* Adjust image width as needed */
+    height: auto;
+}
 .header-image {
     max-width: 3.5em;
 }
