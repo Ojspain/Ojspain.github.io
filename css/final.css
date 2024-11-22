@@ -79,7 +79,7 @@ section {
 }
 
 .carousel-item img {
-    max-height: 300px;
+    max-height: 600px;
     object-fit: cover;
     width: 100%;
 }
