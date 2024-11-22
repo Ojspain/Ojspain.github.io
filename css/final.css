@@ -70,7 +70,16 @@ section {
     text-align: center;
 }
 
+
 .carousel-wrap {
-  width: 800px;
-  margin: 30px auto;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    border: 2px solid red;
+}
+
+.carousel-item img {
+    max-height: 500px;
+    object-fit: cover;
+    width: 100%;
 }
