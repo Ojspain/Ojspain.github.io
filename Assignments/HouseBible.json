@@ -1,5 +1,6 @@
 [
   {
+    "id": 0,
     "name": "sex + intellect. zine june 2010",
     "category": ["Miscellaneous"],
     "foundAt": "Laurel Park",
@@ -16,6 +17,7 @@
     ]
   },
   {
+    "id": 1,
     "name": "EREN Stickers",
     "category": ["EREN"],
     "foundAt": "Various bus stop shelter walls.",
@@ -32,6 +34,7 @@
     ]
   },
   {
+    "id": 2,
     "name": "Cigar Ad Feat. EREN",
     "category": ["Advertisement", "EREN"],
     "foundAt": "My mailbox",
@@ -44,6 +47,7 @@
     ]
   },
   {
+    "id": 3,
     "name": "Enjoy A Piku",
     "category": ["Miscellaneous"],
     "foundAt": "Floor of Old Main",
@@ -56,6 +60,7 @@
     ]
   },
   {
+    "id": 4,
     "name": "Life Alert Advertisement",
     "category": ["Advertisement"],
     "foundAt": "My mailbox",
@@ -72,6 +77,7 @@
     ]
   },
   {
+    "id": 5,
     "name": "Smell Gas? Act Fast!",
     "category": ["Advertisement"],
     "foundAt": "My mailbox",
@@ -84,6 +90,7 @@
     ]
   },
   {
+    "id": 6,
     "name": "Fresno Criminal Court Scam",
     "category": ["Miscellaneous"],
     "foundAt": "My front porch",
@@ -100,6 +107,7 @@
     ]
   },
   {
+    "id": 7,
     "name": "Local Hero's Gift",
     "category": ["Miscellaneous"],
     "foundAt": "My apartment stairwell",
@@ -116,6 +124,7 @@
     ]
   },
   {
+    "id": 8,
     "name": "Would You Like to Know More About the Bible?",
     "category": ["Religious", "Pamphlet"],
     "foundAt": "Red Square",
@@ -136,6 +145,7 @@
     ]
   },
   {
+    "id": 9,
     "name": "G-d sees you now!",
     "category": ["Religious", "Gathering the Harvest"],
     "foundAt": "Las Vegas Strip",
@@ -152,6 +162,7 @@
     ]
   },
   {
+    "id": 10,
     "name": "7 One Hundred Bible Facts on the Sabbath Question",
     "category": ["Religious", "Pamphlet", "Gathering the Harvest"],
     "foundAt": "Las Vegas Strip",
@@ -176,6 +187,7 @@
     ]
   },
   {
+    "id": 11,
     "name": "THIS WAS YOUR LIFE!",
     "category": ["Religious", "Pamphlet", "Gathering the Harvest"],
     "foundAt": "Las Vegas Strip",
@@ -196,6 +208,7 @@
     ]
   },
   {
+    "id": 12,
     "name": "Our Daily Bread",
     "category": ["Religious", "Pamphlet"],
     "foundAt": "Las Vegas Strip",
