@@ -19,9 +19,20 @@ document.addEventListener('DOMContentLoaded', function() {
                 let imagesHtml = '';
 
                 imagesHtml += `
-                    <div class="carousel-wrap">
-                        <div id="carousel${item.id}" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
-                            <div class="carousel-inner">
+                    <div id="carousel${item.id}" class="carousel slide">
+                    <div class="carousel-inner">
+                `;
+                `
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#simpleCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#simpleCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                    </div>
                 `;
 
                 item.images.forEach((image, index) => {
@@ -41,16 +52,15 @@ document.addEventListener('DOMContentLoaded', function() {
                 });
 
                 imagesHtml += `
-                            </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel${item.id}" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carousel${item.id}" data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                            </button>
-                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel${item.id}" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel${item.id}" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                     </div>
                 `;
 
@@ -77,40 +87,50 @@ document.addEventListener('DOMContentLoaded', function() {
                         let imagesHtml = '';
 
                         imagesHtml += `
-                    <div class="carousel-wrap">
-                        <div id="carousel${item.id}" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
-                            <div class="carousel-inner">
-                `;
-
-                item.images.forEach((image, index) => {
-                    if (index == 0) {
-                        imagesHtml += `
-                            <div class="carousel-item active">
-                                <img class="d-block w-100" src="${image.url}" alt="${image.alt}">
-                            </div>
-                        `;
-                    } else {
-                        imagesHtml += `
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="${image.url}" alt="${image.alt}">
-                            </div>
-                        `;
-                    }
-                });
-
-                imagesHtml += `
-                            </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel${item.id}" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carousel${item.id}" data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                            </button>
+                        <div id="carousel${item.id}" class="carousel slide">
+                        <div class="carousel-inner">
+                    `;
+                    `
                         </div>
-                    </div>
-                `;
+                        <button class="carousel-control-prev" type="button" data-bs-target="#simpleCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#simpleCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                        </div>
+                    `;
+    
+                    item.images.forEach((image, index) => {
+                        if (index == 0) {
+                            imagesHtml += `
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="${image.url}" alt="${image.alt}">
+                                </div>
+                            `;
+                        } else {
+                            imagesHtml += `
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="${image.url}" alt="${image.alt}">
+                                </div>
+                            `;
+                        }
+                    });
+    
+                    imagesHtml += `
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel${item.id}" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel${item.id}" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                        </div>
+                    `;
         
                         section.innerHTML = `
                             <h2>${item.name}</h2> 
