@@ -9,6 +9,8 @@ body {
     background-image: url('../images/tile.png');
     background-repeat: repeat;
     background-size: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 h1{
@@ -76,7 +78,6 @@ section {
     width: 61.8%; 
     aspect-ratio: 1 / 1; 
     margin: 0 auto;
-    border: 2px solid red;
     background-color: #F5F5F5;
 }
 
@@ -106,6 +107,7 @@ body {
     position: relative;
     display: flex;
     flex-direction: row;
+    border: 1px solid black;
   }
   .golden-horizontal {
     width: 100%;
