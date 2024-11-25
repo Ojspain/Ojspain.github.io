@@ -106,6 +106,7 @@ section {
     aspect-ratio: 1.618 / 1;/*Horizontal ratio*/
     position: relative;
     background-color: white;
+    border: 1px solid black;
   }
   
   .golden-vertical {
@@ -116,6 +117,7 @@ section {
     display: flex;
     flex-direction: column;
     background-color: white;
+    border: 1px solid black;
   }
 
   .square {
@@ -125,6 +127,7 @@ section {
     padding: 0;;
     background-color: white;
     position: relative;
+    border: 1px solid black;
   }
   .small-square {
     height: 61.8%; /* Golden ratio of parent width */
@@ -133,6 +136,7 @@ section {
     padding: 0;;
     background-color: white;
     position: relative;
+    border: 1px solid black;
   }
 
 .small-square h2{
