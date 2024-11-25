@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chonburi&family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/tile.png');
+    background-repeat: repeat;
+    background-size: auto;
+}
+
+h1{
+    font-size: 3em;
+    font-family: 'Playfair Display', Helvetica, serif;
+}
+
+.filter-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2em;
+    font-size: 1.3em;
+}
+
+.filter-container label{
+    margin-left: 1em;
+}
+  
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+  
+button {
+    margin-left: 1em;
+    padding: 5px 10px;
+}
+  
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.angel-gif {
+    width: 128px;
+    height: 181px;
+}
+
+.left {
+    transform: scaleX(-1);
+    margin-right: 20px;
+}
+
+.right {
+    margin-left: 20px;
+}
+
+section {
+    display: inline-block;
+    max-width: 600px;  
+    border: 1px solid black;
+    padding:20px;
+    margin:10px;
+    background-color: #F5F5F5;
+    text-align: center;
+}
+
+
+.carousel-wrap {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    border: 2px solid red;
+}
+
+.carousel-item img {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  object-fit: cover;
+}
+
+
+.item-wrapper,
+.item-wrapper * {
+  box-sizing: border-box;
+}
+.item-wrapper {
+  background: #ffffff;
+  padding: 10px;
+  height: 526px;
+  position: relative;
+  overflow: hidden;
+}
+.item-content {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 655px;
+  height: 406px;
+  position: absolute;
+  left: 98px;
+  top: 60px;
+  overflow: hidden;
+}
+.content-container {
+  width: 250px;
+  height: 405px;
+  position: absolute;
+  left: 0px;
+  top: 1px;
+  overflow: hidden;
+}
+.item-data {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 250px;
+  height: 155px;
+  position: absolute;
+  left: 0px;
+  top: 250px;
+  overflow: hidden;
+}
+.data {
+  color: #000000;
+  text-align: left;
+  font-family: "-", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 16px;
+  top: -3px;
+  width: 186px;
+  height: 108px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.data-span {
+  color: #000000;
+  font-family: "Unna-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+.data-span2 {
+  color: #000000;
+  font-family: "Unna-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+.data-span3 {
+  color: #000000;
+  font-family: "Unna-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+.data-span4 {
+  color: #000000;
+  font-family: "Unna-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+.data-span5 {
+  color: #000000;
+  font-family: "Unna-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+.data-span6 {
+  color: #000000;
+  font-family: "Unna-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+.image-container {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+
+.description-text {
+  color: #000000;
+  text-align: left;
+  font-family: "-", sans-serif;
+  font-size: 20px;
+  line-height: 35px;
+  font-weight: 400;
+  position: absolute;
+  left: 272px;
+  top: 96px;
+  width: 362px;
+  height: 236px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.description-text-span {
+  color: #000000;
+  font-family: "Unna-Bold", sans-serif;
+  font-size: 20px;
+  line-height: 35px;
+  font-weight: 700;
+}
+.description-text-span2 {
+  color: #000000;
+  font-family: "Unna-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 35px;
+  font-weight: 400;
+}
+.description-container {
+  width: 405px;
+  height: 406px;
+  position: absolute;
+  left: 250px;
+  top: 0px;
+  overflow: hidden;
+}
+.item-name {
+  color: #000000;
+  text-align: left;
+  font-family: "Chonburi-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: underline;
+  position: absolute;
+  left: 38px;
+  top: 31px;
+}
