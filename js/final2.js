@@ -65,45 +65,26 @@ document.addEventListener('DOMContentLoaded', function() {
                 `;
 
 
-                section.innerHTML = `
-                <div class="item-wrapper">
-                <div class="item-content">
-                    <div class="content-container">
-                    <div class="item-data">
-                        <div class="data">
-                        <span>
-                            <span class="data-span">Category:</span>
-                            <span class="data-span2">
-                            ${item.category}
-                            <br />
-                            </span>
-                            <span class="data-span3">Found at:</span>
-                            <span class="data-span4">
-                                ${item.foundAt}
-                            <br />
-                            </span>
-                            <span class="data-span5">Date:</span>
-                            <span class="data-span6">4/5/2022{NEED TO ADD METADATA}</span>
-                        </span>
-                        </div>
-                    </div>
-                    <div class="image-container">
+            section.innerHTML += `
+                <div class="golden-wrapper">
+                    <div class="carousel-wrap">
                         ${imagesHtml}
                     </div>
-                    </div>
-                    <div class="description-text">
-                    <span>
-                        <span class="description-text-span">Description:</span>
-                        <span class="description-text-span2">
-                            ${item.description}
-                        </span>
-                    </span>
-                    </div>
-                    <div class="description-container">
-                    <div class="item-name">${item.id} - ${item.name}</div>
+                    <div class="golden-vertical">
+                        <div class="small-square">
+                            <h2>${item.id} - ${item.name}</h2>
+                            <p>${item.description}</p>
+                        </div>
+                        <div class="golden-horizontal">
+                        <p>
+                            Found at: ${item.foundAt}
+                            Date: 11/11/1111
+                            Category: ${item.category}
+                        </p>
+                        </div>
                     </div>
                 </div>
-                </div>
+            
             `;
                 contentDiv.appendChild(section);
             });
@@ -163,46 +144,26 @@ document.addEventListener('DOMContentLoaded', function() {
                         </div>
                     `;
         
-                        section.innerHTML = `
-                            <div class="item-wrapper">
-                            <div class="item-content">
-                                <div class="content-container">
-                                <div class="item-data">
-                                    <div class="data">
-                                    <span>
-                                        <span class="data-span">Category:</span>
-                                        <span class="data-span2">
-                                        ${item.category}
-                                        <br />
-                                        </span>
-                                        <span class="data-span3">Found at:</span>
-                                        <span class="data-span4">
-                                            ${item.foundAt}
-                                        <br />
-                                        </span>
-                                        <span class="data-span5">Date:</span>
-                                        <span class="data-span6">4/5/2022{NEED TO ADD METADATA}</span>
-                                    </span>
-                                    </div>
-                                </div>
-                                <div class="image-container">
-                                    ${imagesHtml}
-                                </div>
-                                </div>
-                                <div class="description-text">
-                                <span>
-                                    <span class="description-text-span">Description:</span>
-                                    <span class="description-text-span2">
-                                        ${item.description}
-                                    </span>
-                                </span>
-                                </div>
-                                <div class="description-container">
-                                <div class="item-name">${item.id} - ${item.name}</div>
-                                </div>
+                    section.innerHTML += `
+                    <div class="golden-wrapper">
+                        <div class="carousel-wrap">
+                            ${imagesHtml}
+                        </div>
+                        <div class="golden-vertical">
+                            <div class="small-square">
+                                <h2>${item.id} - ${item.name}</h2>
+                                <p>${item.description}</p>
                             </div>
+                            <div class="golden-horizontal">
+                            <p>
+                                Found at: ${item.foundAt}
+                                Date: 11/11/1111
+                                Category: ${item.category}
+                            </p>
                             </div>
-                        `;
+                        </div>
+                    </div>
+                    `;
                         contentDiv.appendChild(section);
                     }
                 });                
