@@ -96,6 +96,7 @@ section {
     position: relative;
     display: flex;
     flex-direction: row;
+    background-color: white;
     border: 1px solid black;
   }
   .golden-horizontal {
@@ -104,6 +105,7 @@ section {
     padding: 0;
     aspect-ratio: 1.618 / 1;/*Horizontal ratio*/
     position: relative;
+    background-color: white;
   }
   
   .golden-vertical {
@@ -113,6 +115,7 @@ section {
     aspect-ratio: 1 / 1.618;/*Vertical ratio*/
     display: flex;
     flex-direction: column;
+    background-color: white;
   }
 
   .square {
@@ -120,7 +123,7 @@ section {
     aspect-ratio: 1 / 1; /* Square */
     margin: 0;
     padding: 0;;
-
+    background-color: white;
     position: relative;
   }
   .small-square {
@@ -128,7 +131,7 @@ section {
     aspect-ratio: 1 / 1; /* Square */
     margin: 0;
     padding: 0;;
-
+    background-color: white;
     position: relative;
   }
 
