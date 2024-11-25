@@ -156,4 +156,12 @@ body {
     padding: 10px;
     box-sizing: border-box;
   }
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
   
