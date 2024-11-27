@@ -133,17 +133,22 @@ section {
   .small-square {
     height: 61.8%; /* Golden ratio of parent width */
     aspect-ratio: 1 / 1; /* Square */
-    margin: 0;
-    padding: 0;;
+    margin: 0px;
+    padding: 0px 5px;
     background-color: white;
     position: relative;
     border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    
+    
   }
 
 .small-square h2{
   font-family: "Chonburi", serif;
   font-weight: 400;
   font-size: 25px;
+  text-align: center;
 }
 
 .small-square p{
