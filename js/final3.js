@@ -125,9 +125,9 @@ document.addEventListener('DOMContentLoaded', function() {
                                 </div>
                                 <div class="golden-horizontal">
                                 <p>
-                                    Found at: ${item.foundAt}
-                                    Date: 11/11/1111
-                                    Category: ${item.category}
+                                    Found at: ${item.foundAt}<br>
+                                    Date: 11/11/1111<br>
+                                    Category: ${item.category}<br>
                                 </p>
                                 </div>
                             </div>
