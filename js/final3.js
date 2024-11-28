@@ -62,9 +62,9 @@ document.addEventListener('DOMContentLoaded', function() {
                         </div>
                         <div class="golden-horizontal">
                         <p>
-                            <em>Found at:</em> ${item.foundAt}
-                            <em>Date:</em> 11/11/1111
-                            <em>Category:</em> ${item.category}
+                            <b>Found at:</b> ${item.foundAt}<br>
+                            <b>Date:</b> 11/11/1111<br>
+                            <b>Category:</b> ${item.category}<br>
                         </p>
                         </div>
                     </div>
@@ -125,9 +125,9 @@ document.addEventListener('DOMContentLoaded', function() {
                                 </div>
                                 <div class="golden-horizontal">
                                 <p>
-                                    Found at: ${item.foundAt}<br>
-                                    Date: 11/11/1111<br>
-                                    Category: ${item.category}<br>
+                                    <b>Found at:</b> ${item.foundAt}<br>
+                                    <b>Date:</b> 11/11/1111<br>
+                                    <b>Category:</b> ${item.category}<br>
                                 </p>
                                 </div>
                             </div>
