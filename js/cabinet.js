@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    fetch('https://ojspain.github.io/Assignments/Dishes.json')
+    fetch('https://ojspain.github.io/Assignments/Noritake.json')
         .then(response => response.json())
         .then(data => {
             const contentDiv = document.getElementById('content');
