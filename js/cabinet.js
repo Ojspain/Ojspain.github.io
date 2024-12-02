@@ -167,6 +167,7 @@ function placeDecorations() {
         carousel4.parentElement.insertBefore(decorationImage, carousel4);
     }
 
+    const carousel6 = document.querySelector('#carousel6');
     if (carousel6) {
         const decorationImage = document.createElement('img');
         decorationImage.src = '../images/clown-fish.gif';
