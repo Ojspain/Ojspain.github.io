@@ -106,6 +106,10 @@ button {
     margin: 20px 0;
 }
 
+.header-container img{
+    max-width: 150px;
+}
+
 .angel-gif {
     width: 128px;
     height: 181px;
