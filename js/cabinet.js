@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         </div>
                         <div class="golden-horizontal">
                         <p>
-                            <b>Found at:</b> ${item.foundAt}<br>
+                            <b>Made around:</b> 1900's - 1920's <br>
                             <b>Made at:</b> ${item.madeAt}<br>
                             <b>Category:</b> ${item.category}<br>
                         </p>
@@ -127,7 +127,7 @@ document.addEventListener('DOMContentLoaded', function() {
                                 </div>
                                 <div class="golden-horizontal">
                                 <p>
-                                    <b>Found at:</b> ${item.foundAt}<br>
+                                    <b>Made around:</b> 1900's - 1920's <br>
                                     <b>Made at:</b> ${item.madeAt}<br>
                                     <b>Category:</b> ${item.category}<br>
                                 </p>
