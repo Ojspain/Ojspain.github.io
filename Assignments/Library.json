@@ -28,7 +28,7 @@
     {
         "id": 1,
         "name": "Bhagavad Gita",
-        "category": ["Krishna Conciousness", "Book"],
+        "category": ["Krishna Consciousness", "Book"],
         "foundAt": "Red Square",
         "date": "April 2023",
         "description": "My roommate had been stopped by a few monks asking for donations while walking through Red Square. After giving $5, they handed them a bunch of literature which they left behind when they moved out.",
@@ -110,7 +110,7 @@
     {
       "id": 4,
         "name": "Sri Isopanisad",
-        "category": ["Krishna Conciousness", "Book"],
+        "category": ["Krishna Consciousness", "Book"],
         "foundAt": "Red Square",
         "date": "April 2023",
         "description": "Another one of the books that my roommate got after donating to monks in Red Square.",
@@ -136,7 +136,7 @@
     {
       "id": 5,
         "name": "Self Realization",
-        "category": ["Krishna Conciousness", "Book"],
+        "category": ["Krishna Consciousness", "Book"],
         "foundAt": "Red Square",
         "date": "April 2023",
         "description": "Another of the books from my roommate, this one is currently being used to create black out poetry.",
@@ -196,7 +196,7 @@
     {
         "id": 7,
         "name": "Srimad Bhagvatam",
-        "category": ["Krishna Conciousness", "Book"],
+        "category": ["Krishna Consciousness", "Book"],
         "foundAt": "Red Square",
         "date": "April 2023",
         "description": "The final one of the books that my roommate got after donating to monks in Red Square. It was the first one that I opened, and the page I flipped to had the word 'nuclear weapon' on it so I knew I was in for a treat.",
