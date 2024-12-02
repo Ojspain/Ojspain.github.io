@@ -152,7 +152,7 @@ checkList.getElementsByClassName('anchor')[0].onclick = function(evt) {
 }
 
 function placeDecorations() {
-    const carousel4 = document.querySelector('#carousel3');
+    const carousel5 = document.querySelector('#carousel5');
 
     if (carousel5) {
         const decorationImage = document.createElement('img');
@@ -167,7 +167,7 @@ function placeDecorations() {
         carousel5.parentElement.insertBefore(decorationImage, carousel5);
     }
 
-    const carousel7 = document.querySelector('#carousel6');
+    const carousel7 = document.querySelector('#carousel7');
 
     if (carousel7) {
         // Create a new image element to be placed before the carousel
@@ -200,7 +200,7 @@ function placeDecorations() {
         carousel8.parentElement.insertBefore(decorationImage, carousel8);
     }
 
-    const carousel11 = document.querySelector('#carousel6');
+    const carousel11 = document.querySelector('#carousel11');
 
     if (carousel11) {
         // Create a new image element to be placed before the carousel
@@ -232,7 +232,7 @@ function placeDecorations() {
         carousel11.parentElement.insertBefore(decorationImage, carousel11);
     }
 
-    const carousel13 = document.querySelector('#carousel6');
+    const carousel13 = document.querySelector('#carousel13');
 
     if (carousel13) {
         // Create a new image element to be placed before the carousel
