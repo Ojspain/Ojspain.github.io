@@ -106,6 +106,10 @@ button {
     margin: 20px 0;
 }
 
+.header-container img{
+    max-width: 150px;
+}
+
 .orange-gif{
 
 }
