@@ -1,0 +1,221 @@
+[
+    {
+      "id": 0,
+      "name": "What is Noritake?",
+      "category": ["Clown", "Smoking", "Painted Lady", "Container"],
+      "madeAt": "Nagoya, Japan",
+      "description": "Noritake, established in 1904 in Nagoya, Japan, is renowned for high-quality ceramics, porcelain, and tableware. Initially focused on Western-style fine china for export, particularly to the U.S. Over time more people started collecting Noritake pieces, attracted by the beautiful patterns and rare set items.",
+      "images": [
+        {
+            "url": "../../images/SecondShelf_3.jpg",
+            "alt": "A sign says 'The famous Noritake China'. It is surrouned by porcelain clown jars."
+        },
+        {
+            "url": "../../images/SecondShelf_4.jpg",
+            "alt": "Close up of the clown jar on the right of the sign."
+        },
+        {
+            "url": "../../images/SecondShelf_7.jpg",
+            "alt": "Close up of the tall clown jar behind the sign."
+        }
+
+      ]
+    },
+    {
+        "id": 1,
+        "name": "My favorite pieces",
+        "category": ["Clown", "Smoking", "Painted Lady", "Figure", "Container"],
+        "madeAt": "Nagoya, Japan",
+        "description": "Having visited my grandparents house many times since I was young I have seen these pieces an uncountable number of times. This first image is my favorite, but all the ones on this shelf are great to me.",
+        "images": [
+          {
+              "url": "../../images/SecondShelf_6.jpg",
+              "alt": "Polka dotted round clown jar."
+          },
+          {
+              "url": "../../images/SecondShelf_5.jpg",
+              "alt": "Wider shot my favorite piece's grouping."
+          },
+          {
+              "url": "../../images/SecondShelf_2.jpg",
+              "alt": "Right side of shelf with painted lady ash tray and clown cigarette container."
+          },
+          {
+            "url": "../../images/SecondShelf_1.jpg",
+            "alt": "The final unseen clown jars and ash trays on the right."
+          }
+  
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Painted Ladies",
+        "category": ["Painted Lady", "Figure"],
+        "madeAt": "Nagoya, Japan",
+        "description": "The painted lady motif is one of Noritake's most iconic and collectible designs. With the exceptional work of Noritake crafstmen, the hand painted woman with different floral patterns make for highly collectible sets of items.",
+        "images": [
+          {
+              "url": "../../images/FirstShelf_1.jpg",
+              "alt": "Small ceramic statue of a painted lady sitting on a stripped green chair."
+          },
+          {
+              "url": "../../images/FirstShelf_2.jpg",
+              "alt": "Three vases each depict a painted lady with wild, fashionable outfits."
+          }
+  
+        ]
+      },
+      {
+        "id": 3,
+        "name": "What are sets?",
+        "category": ["Painted Lady"],
+        "madeAt": "Nagoya, Japan",
+        "description": "A set refers to a production run of items with similar motifs. Like these make-up powder containers which have a similar style but different colors and women painted on. By having items be made in sets, getting complete sets becomes a goal for collectors",
+        "images": [
+          {
+              "url": "../../images/ThirdShelf_1.jpg",
+              "alt": "A variety of small circular make-up powder containers. Each with a painted lady of similar style but different color."
+          },
+          {
+              "url": "../../images/ThirdShelf_2.jpg",
+              "alt": "More make-up powder containers."
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Noritake Cups",
+        "category": ["Cups"],
+        "madeAt": "Nagoya, Japan",
+        "description": "I also have a love for Noritake tea sets because of how unique all the pieces are. Each cup and saucer pair makes for an interesting design statement.",
+        "images": [
+          {
+              "url": "../../images/BottomThree.jpg",
+              "alt": "Three shelves of a display showing Noritake tea sets. Each cup and saucer has a unique design making for a vibrant display."
+          },
+          {
+              "url": "../../images/ColorSquares.jpg",
+              "alt": "Close up of a cup and saucer with multi-colored squares"
+          },
+          {
+            "url": "../../images/SolidRed.jpg",
+            "alt": "Solid red cup with white saucer. On the white saucer are red and black brush strokes."
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "My favorite cup",
+        "category": ["Cups"],
+        "madeAt": "Nagoya, Japan",
+        "description": "Despite how simple the cup and saucer itself is this is my favorite cup and saucer pair. The high contrast between the white, black, and red is one thing, but the unique handle shape sold it for me.",
+        "images": [
+          {
+              "url": "../../images/RedHandle.jpg",
+              "alt": "A white cup with a black saucer. A uniquely shaped, filled handle adds a bright red contrast to this otherwise plain cup"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "More cups",
+        "category": ["Cups"],
+        "madeAt": "Nagoya, Japan",
+        "description": "I like how the cups and saucers can either be detailed or plain, but each provides its own appeal and style regardless of how detailed it is. I personally think less is more with the cup and saucer pairs.",
+        "images": [
+          {
+              "url": "../../images/ManyShapes.jpg",
+              "alt": "A detailed white cup with many black shapes painted on contrasts with a simple, solid red saucer."
+          },
+          {
+            "url": "../../images/PinkFlower.jpg",
+            "alt": "Pink flowers on a white cup."
+          },
+          {
+            "url": "../../images/GoldLines.jpg",
+            "alt": "Gold lines stretch like seaweed across a white cup and red saucer."
+          },
+          {
+            "url": "../../images/FishCup.jpg",
+            "alt": "Thin black fish spread out over a white cup and saucer."
+          },
+          {
+            "url": "../../images/DotsLines_1.jpg",
+            "alt": "A bunch of dots connected by lines form right angles and boxes across a white cup and saucer."
+          },
+          {
+            "url": "../../images/DotsLines_2.jpg",
+            "alt": "More angles of the dots and lines cup and saucer."
+          },
+          {
+            "url": "../../images/BlueStripes.jpg",
+            "alt": "Thick blue stripes and thin black stripes are parallel and overlapping on white cup and saucer."
+          },
+          {
+            "url": "../../images/BlackFire.jpg",
+            "alt": "Black balls of fire dot the cup, with one pink one being the exception. The vice versa is true for the saucer, with many pink fireballs and one black."
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Colorful Container",
+        "category": ["Cups", "Container"],
+        "madeAt": "Nagoya, Japan",
+        "description": "This container in the living room always stood out to me because of its simple pattern abd bright colors. I always felt like it should be rolled like a die.",
+        "images": [
+          {
+              "url": "../../images/ColorBox_1.jpg",
+              "alt": "An angled faced box with bright blue, red, pink, yellow, and green faces."
+          },
+          {
+              "url": "../../images/ColorBox_3.jpg",
+              "alt": "Higher angle showing the red and black checkered handle."
+          },
+          {
+            "url": "../../images/ColorBox_3.jpg",
+            "alt": "Another angle of the top."
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "name": "The Kissing Bell",
+        "category": ["N/A"],
+        "madeAt": "Nagoya, Japan",
+        "description": "One Christmas my grandfather brings out a collection of Noritake Bells. Each one painted with a different year on them. He offered for everyone to take one, so I tried to take the year 1984. For some reason he didn't want to give that one away, so instead I kept looking and found The Kissing Bell.",
+        "images": [
+          {
+              "url": "../../images/KissingBell_1.jpg",
+              "alt": "Floral patterened porcelain bell with the words 'The Kissing Bell' on the rim."
+          },
+          {
+            "url": "../../images/KissingBell_2.jpg",
+            "alt": "Other side of the bell with no text."
+          },
+          {
+            "url": "../../images/KissingBell_3.jpg",
+            "alt": "Inside of the bell has the text 'The Vincent Lippe Collection one of 5,000'."
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Just how collectible are they?",
+        "category": ["Painted Lady", "Clown", "Smoking", "Figure", "Cup", "Container"],
+        "madeAt": "Nagoya, Japan",
+        "description": "When discussing this display case, my grandfather said all the items on display ranged from $250 to thousands of dollars. Can you guess which one is most expensive? (It's bottom middle, the green and gold tray)",
+        "images": [
+          {
+              "url": "../../images/ShelfWide.jpg",
+              "alt": "Wide shot of all 4 shelves of the display."
+          },
+          {
+              "url": "../../images/CupsWide.jpg",
+              "alt": "Wide shot of the cups display."
+          }
+        ]
+      }
+
+  ]
+  

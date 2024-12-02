@@ -1,0 +1,223 @@
+[
+    {
+      "id": 0,
+      "name": "Bible Studies",
+      "category": ["Christian", "Thrift Store"],
+      "foundAt": "Value Village",
+      "date": "October 2022",
+      "description": "A bible studies tape in by R. B. Thieme, Jr that I found at a thriftstore. Having already collected other odd Christian items at that point, I added it to my cart",
+      "images": [
+        {
+          "url": "../../images/BibleStudies_1.jpg",
+          "alt": "The cover of the tape shows a drawing of a plumed helmet, a sword, and a coat of arms."
+        },
+        {
+            "url": "../../images/BibleStudies_2.jpg",
+            "alt": "The back shows an image of the author as well as a short biography of the man."
+        },
+        {
+            "url": "../../images/BibleStudies_3.jpg",
+            "alt": "Close up shot of the biography."
+        },
+        {
+            "url": "../../images/BibleStudies_4.jpg",
+            "alt": "The inside of the box, showing the magnetic tape the doctrine is recorded on."
+        }
+      ]
+    },
+    {
+        "id": 1,
+        "name": "Bhagavad Gita",
+        "category": ["Krishna Conciousness", "Book"],
+        "foundAt": "Red Square",
+        "date": "April 2023",
+        "description": "My roommate had been stopped by a few monks asking for donations while walking through Red Square. After giving $5, they handed them a bunch of literature which they left behind when they moved out.",
+        "images": [
+          {
+            "url": "../../images/BhagGita_1.jpg",
+            "alt": "The cover of the book shows 2 people riding a carriage pulled by 4 white horses while 2 great armies prepare to fight in the background."
+          },
+          {
+            "url": "../../images/BhagGita_2.jpg",
+            "alt": "The back of the book"
+          },
+          {
+            "url": "../../images/BhagGita_3.jpg",
+            "alt": "Page 226 and 227"
+          },
+          {
+            "url": "../../images/BhagGita_4.jpg",
+            "alt": "Page 550 and 551"
+          }
+        ]
+    },
+    {
+      "id": 2,
+        "name": "Final Events",
+        "category": ["Christian"],
+        "foundAt": "Samish Way Bus Stop",
+        "date": "November 2021",
+        "description": "Found in a ziplock bag on the bench inside the bus shelter among other religious items while I was waiting for the bus.",
+        "images": [
+          {
+            "url": "../../images/FinalEvents_1.jpg",
+            "alt": "A meteor is about to crash into a city while a bible sits open in the desert."
+          },
+          {
+            "url": "../../images/FinalEvents_2.jpg",
+            "alt": "Labeling on the back says included on the disc is a bible study computer program."
+          }
+        ]
+    },
+    {
+      "id": 3,
+        "name": "Gaming Jesus",
+        "category": ["Christian", "Book"],
+        "foundAt": "Red Square",
+        "date": "August 2016",
+        "description": "Handed out at a 2016 PAX West booth by some missionaries for the Game Church. Included at the booth was a cardboard cutout of Gaming Jesus.",
+        "images": [
+          {
+            "url": "../../images/GamingJesus_1.jpg",
+            "alt": "The cover shows Jesus in a red and blue robe holding a controller and wearing a headset."
+          },
+          {
+            "url": "../../images/GamingJesus_2.jpg",
+            "alt": "Back side of the book describes why you should give reading this a try even if you aren't Chrisitan."
+          },
+          {
+            "url": "../../images/GamingJesus_3.jpg",
+            "alt": "Describes basic information about the Game Church."
+          },
+          {
+            "url": "../../images/GamingJesus_4.jpg",
+            "alt": "Table of contents."
+          },
+          {
+            "url": "../../images/GamingJesus_5.jpg",
+            "alt": "Letter from Game Church founder."
+          },
+          {
+            "url": "../../images/GamingJesus_6.jpg",
+            "alt": "Introduction page to the book."
+          },
+          {
+            "url": "../../images/GamingJesus_7.jpg",
+            "alt": "Matrix reference of Red Pill Vs Blue Pill about reading more of the book."
+          }
+        ]
+    },
+    {
+      "id": 4,
+        "name": "Sri Isopanisad",
+        "category": ["Krishna Conciousness", "Book"],
+        "foundAt": "Red Square",
+        "date": "April 2023",
+        "description": "Another one of the books that my roommate got after donating to monks in Red Square.",
+        "images": [
+          {
+            "url": "../../images/isopani_1.jpg",
+            "alt": "The cover shows a four armed goddess with many snake heads behind her."
+          },
+          {
+            "url": "../../images/isopani_2.jpg",
+            "alt": "Text on the back claims the book contains wisdom from ancient times."
+          },
+          {
+            "url": "../../images/isopani_3.jpg",
+            "alt": "Page 76 and 77."
+          },
+          {
+            "url": "../../images/isopani_4.jpg",
+            "alt": "Page 104 and 105."
+          }
+        ]
+    },
+    {
+      "id": 5,
+        "name": "Self Realization",
+        "category": ["Krishna Conciousness", "Book"],
+        "foundAt": "Red Square",
+        "date": "April 2023",
+        "description": "Another of the books from my roommate, this one is currently being used to create black out poetry.",
+        "images": [
+          {
+            "url": "../../images/SelfReal_1.jpg",
+            "alt": "The cover shows a four armed goddess in the dark with electrons orbiting around her."
+          },
+          {
+            "url": "../../images/SelfReal_2.jpg",
+            "alt": "The back claims the book contains timeless science."
+          },
+          {
+            "url": "../../images/SelfReal_3.jpg",
+            "alt": "The foreward of the book."
+          },
+          {
+            "url": "../../images/SelfReal_4.jpg",
+            "alt": "The table of contents."
+          },
+          {
+            "url": "../../images/SelfReal_5.jpg",
+            "alt": "Section titled 'Crime: Why And What To Do?', along with a picture of the author."
+          },
+          {
+            "url": "../../images/SelfReal_6.jpg",
+            "alt": "Page 248 before blackout poetry."
+          },
+          {
+            "url": "../../images/SelfReal_7.jpg",
+            "alt": "Blackout poem using page 248."
+          }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Meaning of Life",
+        "category": ["Christian", "Pamphlet"],
+        "foundAt": "Dick's Drive-in on Holman Road",
+        "date": "December 2020",
+        "description": "Found by the wooden fence seperating the customer parking lot from the employee lot.",
+        "images": [
+          {
+            "url": "../../MeaningLife_1.jpg",
+            "alt": "Silhouette of a person at the beach with the sun reflecting on the water."
+          },
+          {
+            "url": "../../MeaningLife_2.jpg",
+            "alt": "The three main sections: 'Your Reality', 'Your Hope', 'Your Destiny'."
+          },
+          {
+            "url": "../../MeaningLife_3.jpg",
+            "alt": "The inner fold and back side reinforce the ideas of the main content.."
+          }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Srimad Bhagvatam",
+        "category": ["Krishna Conciousness", "Book"],
+        "foundAt": "Red Square",
+        "date": "April 2023",
+        "description": "The final one of the books that my roommate got after donating to monks in Red Square. It was the first one that I opened, and the page I flipped to had the word 'nuclear weapon' on it so I knew I was in for a treat.",
+        "images": [
+          {
+            "url": "../../images/srimad_1.jpg",
+            "alt": "The cover shows a glimpse into a paradise of gods inside of a lotus flower. The book contains the first 8 chapters."
+          },
+          {
+            "url": "../../images/srimad_2.jpg",
+            "alt": "The back claims the book reveals trancendental science by which you can discover your true self."
+          },
+          {
+            "url": "../../images/srimad_3.jpg",
+            "alt": "Page 336 and 337."
+          },
+          {
+            "url": "../../images/srimad_4.jpg",
+            "alt": "Aforementioned page about nuclear weapons. (Page 322)"
+          }
+        ]
+    }
+  ]
+  

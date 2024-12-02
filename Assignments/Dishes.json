@@ -1,0 +1,160 @@
+[
+    {
+      "id": 0,
+      "name": "Military Wife",
+      "category": ["Mug", "Person", "Thrift Store"],
+      "foundAt": "Good Will",
+      "date": "August 2022",
+      "description": "A mug I acquired during one of my first trips to the thriftstores of Bellingham, among a few other items mentioned elsewhere.",
+      "images": [
+        {
+            "url": "../../images/MilitartWife_1.jpg",
+            "alt": "Text on the mug reads 'Military Wife' in thin lettering.'"
+        },
+        {
+          "url": "../../images/MilitartWife_2.jpg",
+          "alt": "Bottom of the mug shows Rae Dunn as the maker.'"
+        }
+      ]
+    },
+    {
+        "id": 1,
+        "name": "Millk Mug",
+        "category": ["Mug"],
+        "foundAt": "Las Vegas Omega Mart",
+        "date": "April 2024",
+        "description": "Bought at the Las Vegas Omega Mart at Meow Wolf. Bizarre grocery store shopping experience that is more than it seems.",
+        "images": [
+          {
+              "url": "../../images/OmegaMilk_1.jpg",
+              "alt": "Milk carton shaped mug. A cow is repeated over and over stamped across the front. Advertises as enriched with 'vitamin dram'"
+          },
+          {
+            "url": "../../images/OmegaMilk_2.jpg",
+            "alt": "Angled shot of side showing 'Obligatory Facts' instead of Nutritional Facts"
+          },
+          {
+            "url": "../../images/OmegaMilk_3.jpg",
+            "alt": "Close-up of 'Obligatory Facts'."
+          },
+          {
+            "url": "../../images/OmegaMilk_4.jpg",
+            "alt": "Close-up of Ingredients."
+          },
+          {
+            "url": "../../images/OmegaMilk_5.jpg",
+            "alt": "Downward shot of mug with its carton lid off."
+          }
+
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Sharp Gentleman",
+        "category": ["Person", "Thrift Store"],
+        "foundAt": "Value Village",
+        "date": "April 2021",
+        "description": "The bright pink color of the tray caught my eye, and the look of the man printed on was enough for me to buy it. I aspire to have more dishes with people on them.",
+        "images": [
+          {
+              "url": "../../images/GlassesTray_1.jpg",
+              "alt": "A pink rectangular tray has a man dressed in a suit with round glasses and combed hair printed on it in pop art style."
+          },
+          {
+            "url": "../../images/GlassesTray_2.jpg",
+            "alt": "Bottom of the tray shows supposedly Fabienne Jouvin as the maker, which would be quite the find if true."
+          }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Three Pure Ones",
+        "category": ["Person", "Mug", "Thrift Store"],
+        "foundAt": "Value Village",
+        "date": "April 2021",
+        "description": "Bought during the same trip as the pop art style tray, I was looking through the mugs. The three men on the mug reminded me of The Three Pure Ones, who are the highest gods in Taoist myth, so I bought it.",
+        "images": [
+          {
+              "url": "../../images/PureOnes_1.jpg",
+              "alt": "A man in green robes and a beard with two women by his side drinking something."
+          },
+          {
+            "url": "../../images/PureOnes_2.jpg",
+            "alt": "A man in red robes and a beard with two women by his side drinking something."
+          },
+          {
+            "url": "../../images/PureOnes_3.jpg",
+            "alt": "A man in pink robes and a beard with two women by his side drinking something. The rim of the mug is chipped."
+          },
+          {
+            "url": "../../images/PureOnes_4.jpg",
+            "alt": "Bottom of the mug shows Konitz as the maker."
+          }
+
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Bible Bowl",
+        "category": ["Religious", "Thrift Store"],
+        "foundAt": "Good Will",
+        "date": "October 2024",
+        "description": "During my most recent trip to Good Will I bought this and a mug, along with some other kitchen items. It has the bible verse Romans 8:28 on it",
+        "images": [
+          {
+              "url": "../../images/BibleBowl_1.jpg",
+              "alt": "Wrapped around a wide bowl is the first part of the bible verse Romans 8:28."
+          },
+          {
+            "url": "../../images/BibleBowl_2.jpg",
+            "alt": "Second half of Romans 8:28."
+          },
+          {
+            "url": "../../images/BibleBowl_3.jpg",
+            "alt": "Bottom of the bowl shows Coventry as the maker."
+          }
+
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Wet Paint",
+        "category": ["Person", "Mug", "Thrift Store"],
+        "foundAt": "Good Will",
+        "date": "October 2024",
+        "description": "This was the mug I bought along with the Bible Bowl during my most recent trip. It was mislabled inside another box so it was not exactly what I expected, but I like it anyways.",
+        "images": [
+          {
+              "url": "../../images/WetPaint_1.jpg",
+              "alt": "A clown in shabby clothes and a bucket hat stands under a ladder by a wet paint sign as rain drops on him."
+          },
+          {
+            "url": "../../images/WetPaint_2.jpg",
+            "alt": "Bottom of the mug shows it was made in Japan."
+          }
+
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Bible Mug",
+        "category": ["Religious", "Mug", "Thrift Store"],
+        "foundAt": "Good Will",
+        "date": "August 2024",
+        "description": "What ties it together beyond the bible quote is the default font for the '1 Corinthians 13' part. It's the cherry on top.",
+        "images": [
+          {
+              "url": "../../images/BibleCup_1.jpg",
+              "alt": "Around the mug is a floral pattern. Theres also the bible verse Corinthians 13."
+          },
+          {
+            "url": "../../images/BibleCup_2.jpg",
+            "alt": "Bottom of the mug shows Bay Island as the maker."
+          }
+
+        ]
+    }
+    
+
+  ]
+  

@@ -1,0 +1,333 @@
+
+[
+    {
+      "id": 0,
+      "name": "Action Jesus",
+      "category": ["Christian", "Avenger", "Figure"],
+      "foundAt": "From a box labeled 'Free' by Sunset Hill.",
+      "date": "January 2021",
+      "description": "A jesus action figure with smooth gliding wheels and pose-able arms.",
+      "images": [
+        {
+          "url": "../../images/ActionJesus_1.jpg",
+          "alt": "Front of Jesus."
+        },
+        {
+            "url": "../../images/ActionJesus_2.jpg",
+            "alt": "Back of Jesus with his arms raised up."
+        }
+      ]
+    },
+    {
+        "id": 1,
+        "name": "Flesh Sack",
+        "category": ["Ceramic", "Avenger", "Figure"],
+        "foundAt": "Ballard High School Ceramics Class",
+        "date": "Febuary 2019",
+        "description": "The ceramics teacher at my high school was very relaxed with the rules as long as you were being respectful. By stretching the meaning of an assignment far, I could usually make whatever I wanted to make fit the assignment. One such result is Flesh Sack.",
+        "images": [
+          {
+            "url": "../../images/FleshSack_1.jpg",
+            "alt": "Flesh colored blob with bulging eyes and crane nose."
+          },
+          {
+              "url": "../../images/FleshSack_2.jpg",
+              "alt": "Flesh sack from a different angle."
+          }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Business Snail",
+        "category": ["Ceramic", "Avenger", "Figure"],
+        "foundAt": "Ballard High School Ceramics Class",
+        "date": "March 2019",
+        "description": "Much like Flesh Sack, Business Snail was the outcome of pushing the assignment rubric to its limits. His shell is supposed to be his briefcase.",
+        "images": [
+          {
+            "url": "../../images/BusinessSnail_1.jpg",
+            "alt": "Snail with a human head wearing a suit."
+          },
+          {
+              "url": "../../images/BusinessSnail_2.jpg",
+              "alt": "Same snail, different angle."
+          }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Robot-7",
+        "category": ["Avenger", "Figure", "Thrift Store", "Splice"],
+        "foundAt": "Value Village",
+        "date": "December 2019",
+        "description": "Robot-7 was a gift from my Mother when she heard I was collecting old toys to re-purpose. It has not reached its true potential yet.",
+        "images": [
+          {
+            "url": "../../images/KeyRobot_1.jpg",
+            "alt": "Small metal toy robot with wind-up key for motorized wheels."
+          },
+          {
+            "url": "../../images/KeyRobot_2.jpg",
+            "alt": "The same robot has a different design on the other side."
+          },
+          {
+            "url": "../../images/KeyRobot_3.jpg",
+            "alt": "Side shot showing both designs."
+          }
+        ]
+    },
+    {
+      "id": 4,
+        "name": "Shake Leg",
+        "category": ["Avenger", "Figure", "Thrift Store", "Splice"],
+        "foundAt": "Value Village",
+        "date": "Febuary 2021",
+        "description": "Shake leg is the result of toy splicing, something I sometimes do when I need to prepare a gift for someone. In Shake Leg's case, hes made up of leftovers of another splice.",
+        "images": [
+          {
+            "url": "../../images/ShakeLeg_1.jpg",
+            "alt": "Shake Leg's bottom half is the legs of a vintage GI Joe action figure. The upper head is a doll head I found at Value Village."
+          },
+          {
+            "url": "../../images/ShakeLeg_2.jpg",
+            "alt": "Shake Leg from a slightly different angle"
+          },
+          {
+            "url": "../../images/ShakeLeg_3.jpg",
+            "alt": "Shake Leg from the side."
+          },
+          {
+            "url": "../../images/ShakeLeg_4.jpg",
+            "alt": "Shake Leg from the back."
+          },
+          {
+            "url": "../../images/ShakeLeg_5.jpg",
+            "alt": "Shake Leg but my camera setting changed by mistake so the background is a black void."
+          }
+        ]
+    },
+    {
+      "id": 5,
+        "name": "The Dream Team",
+        "category": ["Avenger", "Figure", "Thrift Store", "Ceramic", "Christian", "Splice"],
+        "foundAt": "Value Village, Ceramic Class, Roadside",
+        "date": "Febuary 2019 - Febuary 2021",
+        "description": "I didn't know that these 5 were a team till I had them all together taking photos. Seeing it now its clear.",
+        "images": [
+          {
+            "url": "../../images/Avengers.jpg",
+            "alt": "From left to right: Flesh Sack, Action Jesus, Shake Leg, Business Snail, Robot-7"
+          }
+        ]
+    },
+    {
+      "id": 6,
+        "name": "Sideshow Freaks",
+        "category": ["Figure", "Thrift Store", "Sideshow", "Splice"],
+        "foundAt": "Good Will",
+        "date": "August 2022",
+        "description": "Doing my rounds at the Thrift Store I came across these guys and I knew I had to buy it. My mother used to paint re-creations of sideshow banners like this one so I'm fond of them.",
+        "images": [
+          {
+            "url": "../../images/Sideshow_1.jpg",
+            "alt": "Sideshow freak banner and stage featuring Frog Girl and Lobster Boy."
+          },
+          {
+            "url": "../../images/Sideshow_2.jpg",
+            "alt": "Close-up of Frog Girl."
+          },
+          {
+            "url": "../../images/Sideshow_3.jpg",
+            "alt": "Close-up of Lobster Boy."
+          }
+        ]
+    },
+    {
+      "id": 7,
+        "name": "Zoltar Speaks",
+        "category": ["Figure", "Thrift Store"],
+        "foundAt": "Good Will",
+        "date": "August 2022",
+        "description": "Bought during the same shopping trip I picked up the sideshow freaks. Also purchased a mug you can see in the dishes section, so a very bountiful trip.",
+        "images": [
+          {
+            "url": "../../images/ZoltarSpeaks_1.jpg",
+            "alt": "Fake Animatronic fortune teller with crystal ball and tarot cards.."
+          },
+          {
+            "url": "../../images/ZoltarSpeaks_2.jpg",
+            "alt": "Close-up of the crystal ball and cards."
+          }
+        ]
+    },
+    {
+      "id": 8,
+        "name": "Spider Baby",
+        "category": ["Figure", "Thrift Store", "Splice"],
+        "foundAt": "Good Will",
+        "date": "April 2022",
+        "description": "Who knows what evil acts the Spider Baby would get up to if it were free. Luckily, I have contained it for you.",
+        "images": [
+          {
+            "url": "../../images/SpiderBaby_1.jpg",
+            "alt": "Glass dome trapping a baby riding a spider."
+          },
+          {
+            "url": "../../images/SpiderBaby_2.jpg",
+            "alt": "Close-up of the spider baby."
+          }
+        ]
+    },
+    {
+      "id": 9,
+        "name": "Bubba",
+        "category": ["Figure", "Thrift Store"],
+        "foundAt": "Value Village",
+        "date": "July 2022",
+        "description": "Bubba could be considered the guardian of my apartment. I bought him shortly after I moved in before I even had a table.",
+        "images": [
+          {
+            "url": "../../images/Bubba_1.jpg",
+            "alt": "Large round ceramic toad named Bubba"
+          },
+          {
+            "url": "../../images/Bubba_2.jpg",
+            "alt": "Bubba from the back."
+          },
+          {
+            "url": "../../images/Bubba_3.jpg",
+            "alt": "Bubba from the side."
+          }
+        ]
+    },
+    {
+      "id": 10,
+        "name": "Bottle of Ants",
+        "category": ["Splice", "Thrift Store"],
+        "foundAt": "Some 'Pharmacy' in Maine",
+        "date": "June 2019",
+        "description": "When visiting my east coast family in Maine we stopped by this place that called itself a pharmacy but it really just sort of sold everything. Like a hardware store combined inventories with Archie McPhee's. Anyways I bought a bunch of plastic ants.",
+        "images": [
+          {
+            "url": "../../images/BottledAnts_1.jpg",
+            "alt": "Glass bottle with cork. Bottom portion of bottle is filled with plastic ants."
+          },
+          {
+            "url": "../../images/BottledAnts_2.jpg",
+            "alt": "Close-up of the plastic ants."
+          }
+        ]
+    },
+    {
+      "id": 11,
+        "name": "Normal Face",
+        "category": ["N/A"],
+        "foundAt": "Orthodontist's Office",
+        "date": "September 2012 - July 2019",
+        "description": "The teeth mould was just from the orthodontist. The eyeballs were painted by my mother a long time ago. Longer than I can remember even. She used to make a newton's cradle out of eyes",
+        "images": [
+          {
+            "url": "../../images/NormalFace_1.jpg",
+            "alt": "A plaster mould set of teeth with two painted eyeballs on stands to the left and right"
+          },
+          {
+            "url": "../../images/NormalFace_2.jpg",
+            "alt": "Close-up of one of the painted eyes."
+          },
+          {
+            "url": "../../images/NormalFace_3.jpg",
+            "alt": "Bottom of the teeth showing the date of production - 9/25/12"
+          },
+          {
+            "url": "../../images/NormalFace_4.jpg",
+            "alt": "Close-up of the teeth."
+          },
+          {
+            "url": "../../images/NormalFace_5.jpg",
+            "alt": "The set of teeth seperated so you can see the inside of the mouth and the shape of each tooth clearly."
+          }
+        ]
+    },
+    {
+      "id": 12,
+        "name": "Fblthp",
+        "category": ["Figure"],
+        "foundAt": "Wizards of the Coast Office",
+        "date": "November 2015",
+        "description": "Gotten for free via my fathers work place, Fblthp (pronounce 'fibblethip') has always sat perched up somewhere high where I'm living.",
+        "images": [
+          {
+            "url": "../../images/fblthp_1.jpg",
+            "alt": "Fblthp the homunculus with its one large eye looks to its left."
+          },
+          {
+            "url": "../../images/fblthp_2.jpg",
+            "alt": "Fblthp in its current perch: My kitchen light."
+          }
+        ]
+    },
+    {
+      "id": 13,
+        "name": "Chicken Lamp",
+        "category": ["Figure"],
+        "foundAt": "Amazon",
+        "date": "January 2024",
+        "description": "Told my friend he could purchase one item on amazon (within reason) and he came up with this. The Chicken Lamp may be awesome, but its short cable length leaves much to be desired.",
+        "images": [
+          {
+            "url": "../../images/ChickenLamp_1.jpg",
+            "alt": "A white chicken with a bright red comb and wattle from the front."
+          },
+          {
+            "url": "../../images/ChickenLamp_2.jpg",
+            "alt": "Same chicken from the side. A white egg is visible slightly coming out of its rear."
+          },
+          {
+            "url": "../../images/ChickenLamp_3.jpg",
+            "alt": "Same angle as before, only this time the white egg is glowing as the chicken is now plugged in."
+          }
+          
+        ]
+    },
+    {
+      "id": 14,
+        "name": "Red Head",
+        "category": ["Figure", "Thrift Store"],
+        "foundAt": "Thrift Store",
+        "date": "July 2022",
+        "description": "When packing my things before moving out, I was told I was allowed to take some items that I like from around the house to decorate my apartment when I moved in. Since it was an item acquired by my Mother, I can be sure its from a Thrift Store.",
+        "images": [
+          {
+            "url": "../../images/SidHead_1.jpg",
+            "alt": "A heavy statue of Siddhartha, painted bright red."
+          },
+          {
+            "url": "../../images/Sidhead_2.jpg",
+            "alt": "Same statue, but from the side"
+          }
+        ]
+    },
+    {
+      "id": 15,
+        "name": "Prayer Coins",
+        "category": ["Thrift Store", "Christian"],
+        "foundAt": "Good Will",
+        "date": "August 2022",
+        "description": "During this trip where I got Zoltar and the sideshow freaks, I opened up a piggy bank and found three plastic prayer coins inside. By forgetting I put them in my pocket, I walked out the store with them. I repent.",
+        "images": [
+          {
+            "url": "../../images/PrayerCoin_1.jpg",
+            "alt": "A gold colored plastic coin, showing two hands pressed together in prayer."
+          },
+          {
+            "url": "../../images/PrayerCoin_2.jpg",
+            "alt": "A different coin has a picture of Moses with the text 'MOSES LEADS HIS PEOPLE'."
+          },
+          {
+            "url": "../../images/PrayerCoin_3.jpg",
+            "alt": "All three coints shown together. The final design is of a flying dove."
+          }
+        ]
+    }
+  ]
+  
