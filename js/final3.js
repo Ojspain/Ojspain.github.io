@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             filterBtn.addEventListener('click', function() {
                 filterItems();
+                placeDecorations();
             });
 
             contentDiv.style.display = 'flex'; 
@@ -71,6 +72,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 `;
                 contentDiv.appendChild(goldenWrapper);
             });
+            placeDecorations();
 
             function filterItems() {
                 const checkboxes = document.querySelectorAll('input[name="category"]:checked');
@@ -139,3 +141,58 @@ document.addEventListener('DOMContentLoaded', function() {
         })
         .catch(error => console.error('Error loading the data:', error));
 });
+
+// Dropdown menu for category filters
+var checkList = document.getElementById('filters');
+checkList.getElementsByClassName('anchor')[0].onclick = function(evt) {
+  if (checkList.classList.contains('visible'))
+    checkList.classList.remove('visible');
+  else
+    checkList.classList.add('visible');
+}
+
+function placeDecorations() {
+    // Example check for carousel with id #carousel4
+    const carousel = document.querySelector('#carousel9');
+
+    if (carousel) {
+        // Create a new image element to be placed before the carousel
+        const decorationImage = document.createElement('img');
+        decorationImage.src = '../images/nun-reading.gif'; // Replace with your image path
+        decorationImage.alt = 'Cartoon Nun reading a bible.';
+        decorationImage.style.position = 'absolute';
+        decorationImage.style.top = '60px';
+        decorationImage.style.right = '60vw';
+        decorationImage.style.zIndex = '-1';
+
+        // Insert the image before the carousel
+        carousel.parentElement.insertBefore(decorationImage, carousel);
+    }
+
+
+    const carousel10 = document.querySelector('#carousel10');
+
+    if (carousel10) {
+        const anotherDecorationImage = document.createElement('img');
+        anotherDecorationImage.src = '../images/nun-guitar.gif';
+        anotherDecorationImage.alt = 'Cartoon Nun playing a guitar';
+        anotherDecorationImage.style.position = 'absolute';
+        anotherDecorationImage.style.top = '50px';
+        anotherDecorationImage.style.left = '60vw';
+        anotherDecorationImage.style.zIndex = '10';
+
+        carousel10.parentElement.insertBefore(anotherDecorationImage, carousel10);
+    }
+
+/*     if (carousel) {
+        const anotherDecorationImage = document.createElement('img');
+        anotherDecorationImage.src = '../images/decorative-image2.png';
+        anotherDecorationImage.alt = 'Another Decorative Image';
+        anotherDecorationImage.style.position = 'absolute';
+        anotherDecorationImage.style.top = '50px';
+        anotherDecorationImage.style.right = '20px';
+        anotherDecorationImage.style.zIndex = '-1';
+
+        carousel.parentElement.insertBefore(anotherDecorationImage, carousel);
+    } */
+}
