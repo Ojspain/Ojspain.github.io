@@ -19,24 +19,20 @@ h1{
   font-weight: 400;
   font-size: 3.5em;
 }
-h1{
-    font-family: "Unna", serif;
-    font-weight: 400;
-    font-size: 3em;
-  }
 
 .wrapper{
   display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
-  background-image: url('../images/wall-tile.png');
-  background-repeat: repeat;
-  background-size: auto;
   margin-top: 5vh;
 }
 
-  
+p{
+    width: 60%;
+    font-size: 1.5em;
+} 
+
 label {
     display: block;
     margin-bottom: 5px;
