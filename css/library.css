@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Chonburi&family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Quintessential&display=swap');
 
 body {
-    font-family: "Unna", serif;
-    font-weight: 400;
+  font-family: "Fraunces", serif;
+    font-weight: 300;
     margin: 0;
     padding: 0;
     background-image: url('../images/yellow-tile.jpg');
@@ -15,7 +14,7 @@ body {
 }
 
 h1{
-  font-family: "Unna", serif;
+  font-family: "Quintessential", serif;
   font-weight: 400;
   font-size: 3em;
 }
@@ -105,9 +104,6 @@ button {
     width: 100%;
     margin: 20px 0;
 }
-.header-container img{
-    max-width: 150px;
-}
 
 .crown-gif{
 
@@ -176,6 +172,7 @@ section {
     display: flex;
     flex-direction: column;
     background-color: white;
+    /* border: 1px solid black; */
   }
 
   .square {
@@ -202,22 +199,22 @@ section {
   }
 
 .small-square h2{
-  font-family: "Chonburi", serif;
+  font-family: "Quintessential", serif;
   font-weight: 400;
   font-size: 2.1em;
   text-align: center;
 }
 
 .small-square p{
-  font-family: "Unna", serif;
-  font-weight: 400;
-  font-size: 1.2em;
+  font-family: "Fraunces", serif;
+  font-weight: 300;
+  font-size: 1em;
   padding: 5px 10px;
 }
 
 .golden-horizontal p{
-  font-family: "Unna", serif;
-  font-weight: 400;
+  font-family: "Fraunces", serif;
+  font-weight: 300;
   font-size: 1.5em;
   padding: 5px 10px;
 }
