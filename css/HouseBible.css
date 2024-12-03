@@ -93,9 +93,12 @@ label {
     margin-bottom: 5px;
 }
   
-button {
-    margin-left: 1em;
-    padding: 5px 10px;
+.dropdown-check-list ul.items li button {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+  border-radius: 15px;
 }
   
 .header-container {
