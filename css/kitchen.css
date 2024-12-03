@@ -86,7 +86,13 @@ h1{
 .dropdown-check-list.visible .items {
 	display:block;
 }
-
+.dropdown-check-list ul.items li button {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+  border-radius: 15px;
+}
   
 label {
     display: block;
