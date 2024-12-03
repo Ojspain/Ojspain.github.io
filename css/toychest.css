@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Chonburi&family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
-    font-family: "Unna", serif;
+    font-family: "Indie Flower", cursive;
     font-weight: 400;
     margin: 0;
     padding: 0;
@@ -15,7 +14,7 @@ body {
 }
 
 h1{
-  font-family: "Unna", serif;
+  font-family: "Sour Gummy", serif;
   font-weight: 400;
   font-size: 3em;
 }
@@ -104,9 +103,6 @@ button {
     justify-content: center;
     width: 100%;
     margin: 20px 0;
-}
-.header-container img{
-    max-width: 150px;
 }
 
 .orange-gif{
@@ -202,23 +198,23 @@ section {
   }
 
 .small-square h2{
-  font-family: "Chonburi", serif;
+  font-family: "Sour Gummy", serif;
   font-weight: 400;
   font-size: 2.1em;
   text-align: center;
 }
 
 .small-square p{
-  font-family: "Unna", serif;
+  font-family: "Indie Flower", cursive;
   font-weight: 400;
-  font-size: 1.1em;
+  font-size: 1em;
   padding: 5px 10px;
 }
 
 .golden-horizontal p{
-  font-family: "Unna", serif;
+  font-family: "Indie Flower", cursive;
   font-weight: 400;
-  font-size: 1.2em;
+  font-size: 1.5em;
   padding: 5px 10px;
 }
   
