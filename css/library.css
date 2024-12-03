@@ -92,10 +92,6 @@ label {
     margin-bottom: 5px;
 }
   
-button {
-    margin-left: 1em;
-    padding: 5px 10px;
-}
   
 .header-container {
     display: flex;
