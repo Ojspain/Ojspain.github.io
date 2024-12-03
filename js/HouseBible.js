@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         <div class="golden-horizontal">
                         <p>
                             <b>Found at:</b> ${item.foundAt}<br>
-                            <b>Date:</b> 11/11/1111<br>
+                            <b>Date:</b> ${item.date}<br>
                             <b>Category:</b> ${item.category}<br>
                         </p>
                         </div>
@@ -128,7 +128,7 @@ document.addEventListener('DOMContentLoaded', function() {
                                 <div class="golden-horizontal">
                                 <p>
                                     <b>Found at:</b> ${item.foundAt}<br>
-                                    <b>Date:</b> 11/11/1111<br>
+                                    <b>Date:</b> ${item.date}<br>
                                     <b>Category:</b> ${item.category}<br>
                                 </p>
                                 </div>
