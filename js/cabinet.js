@@ -152,8 +152,8 @@ checkList.getElementsByClassName('anchor')[0].onclick = function(evt) {
 }
 
 function placeDecorations() {
-    const carousel4 = document.querySelector('#carousel3');
-
+    
+    const carousel4 = document.querySelector('#carousel4');
     if (carousel4) {
         const decorationImage = document.createElement('img');
         decorationImage.src = '../images/angel-fish.gif';
