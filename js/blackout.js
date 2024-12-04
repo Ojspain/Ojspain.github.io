@@ -6,7 +6,7 @@ function preload() {
 }
 
 function setup() {
-  const scaleFactor = 0.5;
+  const scaleFactor = 0.75;
   img.resize(img.width * scaleFactor, img.height * scaleFactor);
 
   canvas = createCanvas(img.width, img.height);
@@ -18,7 +18,7 @@ function draw() {}
 
 function mouseDragged() {
   stroke(0);
-  strokeWeight(10);
+  strokeWeight(15);
   line(mouseX, mouseY, pmouseX, pmouseY);
 }
 
