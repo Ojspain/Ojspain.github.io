@@ -2,18 +2,19 @@ let img;
 let canvas;
 
 function preload() {
-  img = loadImage('../images/SelfReal_6.jpg');
+  img = loadImage('../images/SelfReal_6.jpg'); 
 }
 
 function setup() {
+  const scaleFactor = 0.5;
+  img.resize(img.width * scaleFactor, img.height * scaleFactor);
+
   canvas = createCanvas(img.width, img.height);
   centerCanvas();
   image(img, 0, 0);
 }
 
-function draw() {
-
-}
+function draw() {}
 
 function mouseDragged() {
   stroke(0);
@@ -23,7 +24,7 @@ function mouseDragged() {
 
 function keyPressed() {
   if (key === 's') {
-    save('blackout-poetry.png'); // Save the canvas as an image
+    save('blackout-poetry.png');
   }
 }
 
